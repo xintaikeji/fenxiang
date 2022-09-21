@@ -5,1264 +5,529 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_1","server":"38.75.136.93","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇫🇷FR法国订阅YouTube晓猛科技_2","server":"145.239.1.137","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_3","server":"167.88.61.60","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷FR法国订阅YouTube晓猛科技_4","server":"141.95.0.26","port":826,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"sF43Xt2gONqcgFX563"}
-  - {"name":"🇫🇷FR法国订阅YouTube晓猛科技_5","server":"145.239.1.137","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_6","server":"167.88.61.60","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_7","server":"38.68.134.23","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇫🇷FR法国订阅YouTube晓猛科技_8","server":"145.239.1.137","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇳CN中国订阅YouTube晓猛科技_9","server":"42.193.48.64","port":50002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false}
-  - {"name":"🇨🇳CN中国订阅YouTube晓猛科技_10","server":"42.157.8.162","port":50002,"type":"vmess","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","tls":false}
-  - {"name":"🇦🇺AU澳大利亚订阅YouTube晓猛科技_11","server":"172.105.171.80","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇦🇺AU澳大利亚订阅YouTube晓猛科技_12","server":"v10.ssrsub.com","port":166,"type":"vmess","uuid":"535c9eef-40a3-4767-9253-706b0b128ed5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇦🇺AU澳大利亚订阅YouTube晓猛科技_13","server":"v10.ssrsub.com","port":166,"type":"vmess","uuid":"916251fa-6aa5-459d-b7a1-968b49a01e4e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_14","server":"198.57.27.241","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_15","server":"198.57.27.172","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_16","server":"198.57.27.241","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_17","server":"198.57.27.184","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_18","server":"198.57.27.184","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_19","server":"198.57.27.241","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_20","server":"198.57.27.172","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_21","server":"198.57.27.184","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_22","server":"198.57.27.172","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_23","server":"35.182.60.100","port":8080,"type":"ssr","password":"4axflHccX","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_24","server":"192.186.129.66","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_25","server":"t1.ssrsub.com","port":8443,"type":"trojan","password":"535c9eef-40a3-4767-9253-706b0b128ed5","sni":"douyincdn.com"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_26","server":"t4.ssrsub.com","port":8443,"type":"trojan","password":"916251fa-6aa5-459d-b7a1-968b49a01e4e","sni":"douyincdn.com"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_27","server":"t3.ssrsub.com","port":8443,"type":"trojan","password":"535c9eef-40a3-4767-9253-706b0b128ed5","sni":"douyincdn.com"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_28","server":"t1.ssrsub.com","port":8443,"type":"trojan","password":"916251fa-6aa5-459d-b7a1-968b49a01e4e","sni":"douyincdn.com"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_29","server":"t3.ssrsub.com","port":8443,"type":"trojan","password":"916251fa-6aa5-459d-b7a1-968b49a01e4e","sni":"douyincdn.com"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_30","server":"t4.ssrsub.com","port":8443,"type":"trojan","password":"535c9eef-40a3-4767-9253-706b0b128ed5","sni":"douyincdn.com"}
-  - {"name":"🇨🇳CN中国订阅YouTube晓猛科技_31","server":"183.232.56.161","port":1212,"type":"vmess","uuid":"3a226645-c640-39a2-8177-000381e29f20","alterId":64,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/v2ray"}}
-  - {"name":"🇨🇳CN中国订阅YouTube晓猛科技_32","server":"ddns04.r8o8c8k.xyz","port":65012,"type":"vmess","uuid":"aefcd764-7d2e-3a86-803d-b11c1e77aa30","alterId":0,"cipher":"auto","tls":false,"network":"ws","ws-opts":{"path":"/rocket"}}
-  - {"name":"🇫🇷FR法国订阅YouTube晓猛科技_33","server":"145.239.1.137","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇫🇷FR法国订阅YouTube晓猛科技_34","server":"145.239.1.137","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇫🇷FR法国订阅YouTube晓猛科技_35","server":"95.142.175.14","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"tkAx1ehPPkMN"}
-  - {"name":"🇫🇷FR法国订阅YouTube晓猛科技_36","server":"149.202.82.172","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇫🇷FR法国订阅YouTube晓猛科技_37","server":"149.202.82.172","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇫🇷FR法国订阅YouTube晓猛科技_38","server":"145.239.1.100","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇫🇷FR法国订阅YouTube晓猛科技_39","server":"145.239.1.137","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇫🇷FR法国订阅YouTube晓猛科技_40","server":"62.210.209.50","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇭🇰HK香港订阅YouTube晓猛科技_41","server":"s3.upyun.online","port":12340,"type":"trojan","password":"4809af3e-b8f2-4f07-9cfb-79d0a7bb1219"}
-  - {"name":"🇮🇳IN印度订阅YouTube晓猛科技_42","server":"india.tgsc.xyz","port":443,"type":"vmess","uuid":"1355574d-dac9-4006-8420-95a156fa5f32","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/V81DFD0H"}}
-  - {"name":"🇯🇵JP日本订阅YouTube晓猛科技_43","server":"54.168.200.100","port":8081,"type":"ssr","password":"3H2aN5Gnm","cipher":"aes-256-cfb","protocol":"origin","obfs":"tls1.2_ticket_auth"}
-  - {"name":"🇯🇵JP日本订阅YouTube晓猛科技_44","server":"lin-jp.tgsc.xyz","port":443,"type":"vmess","uuid":"57c95541-5147-4dae-81d0-660cc6b25e9b","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/FNRWR48K"}}
-  - {"name":"🇨🇿CZ捷克订阅YouTube晓猛科技_45","server":"t7.ssrsub.com","port":8443,"type":"trojan","password":"916251fa-6aa5-459d-b7a1-968b49a01e4e","sni":"douyincdn.com"}
-  - {"name":"🇨🇳CN中国订阅YouTube晓猛科技_46","server":"s1.upyun.online","port":12340,"type":"trojan","password":"4809af3e-b8f2-4f07-9cfb-79d0a7bb1219"}
-  - {"name":"🇨🇿CZ捷克订阅YouTube晓猛科技_47","server":"t2.ssrsub.com","port":8443,"type":"trojan","password":"535c9eef-40a3-4767-9253-706b0b128ed5","sni":"douyincdn.com"}
-  - {"name":"🇨🇿CZ捷克订阅YouTube晓猛科技_48","server":"t7.ssrsub.com","port":8443,"type":"trojan","password":"535c9eef-40a3-4767-9253-706b0b128ed5","sni":"douyincdn.com"}
-  - {"name":"🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_49","server":"t6.ssrsub.com","port":8443,"type":"trojan","password":"535c9eef-40a3-4767-9253-706b0b128ed5","sni":"douyincdn.com"}
-  - {"name":"🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_50","server":"t6.ssrsub.com","port":8443,"type":"trojan","password":"916251fa-6aa5-459d-b7a1-968b49a01e4e","sni":"douyincdn.com"}
-  - {"name":"🇨🇿CZ捷克订阅YouTube晓猛科技_51","server":"t2.ssrsub.com","port":8443,"type":"trojan","password":"916251fa-6aa5-459d-b7a1-968b49a01e4e","sni":"douyincdn.com"}
-  - {"name":"🇸🇬SG新加坡订阅YouTube晓猛科技_52","server":"v7.ssrsub.com","port":8443,"type":"vmess","uuid":"535c9eef-40a3-4767-9253-706b0b128ed5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇸🇬SG新加坡订阅YouTube晓猛科技_53","server":"v7.ssrsub.com","port":8443,"type":"vmess","uuid":"916251fa-6aa5-459d-b7a1-968b49a01e4e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_54","server":"38.75.136.93","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_55","server":"142.202.48.34","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_56","server":"167.88.61.60","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_57","server":"142.202.48.34","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_58","server":"38.75.136.93","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_59","server":"38.68.134.23","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_60","server":"142.202.48.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_61","server":"38.68.134.23","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_62","server":"167.88.63.74","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_63","server":"38.114.114.49","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_64","server":"167.88.61.60","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_65","server":"38.75.136.93","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇬🇧GB英国订阅YouTube晓猛科技_66","server":"172.99.190.149","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_67","server":"38.114.114.49","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇬🇧GB英国订阅YouTube晓猛科技_68","server":"172.99.190.39","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_69","server":"167.88.61.60","port":9102,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_70","server":"167.88.62.34","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇬🇧GB英国订阅YouTube晓猛科技_71","server":"172.99.190.39","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_72","server":"167.88.61.60","port":8881,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_73","server":"38.121.43.71","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_74","server":"38.121.43.71","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇮🇳IN印度订阅YouTube晓猛科技_75","server":"172.104.207.231","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_76","server":"38.75.136.93","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇬🇧GB英国订阅YouTube晓猛科技_77","server":"172.99.190.188","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇬🇧GB英国订阅YouTube晓猛科技_78","server":"172.99.190.149","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇬🇧GB英国订阅YouTube晓猛科技_79","server":"172.99.190.188","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇬🇧GB英国订阅YouTube晓猛科技_80","server":"172.99.190.149","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_81","server":"167.88.63.61","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_82","server":"209.58.139.41","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_83","server":"v1.ssrsub.com","port":443,"type":"vmess","uuid":"916251fa-6aa5-459d-b7a1-968b49a01e4e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_84","server":"v4.ssrsub.com","port":166,"type":"vmess","uuid":"916251fa-6aa5-459d-b7a1-968b49a01e4e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_85","server":"v4.ssrsub.com","port":166,"type":"vmess","uuid":"535c9eef-40a3-4767-9253-706b0b128ed5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇰🇷KR韩国订阅YouTube晓猛科技_86","server":"v11.ssrsub.com","port":166,"type":"vmess","uuid":"535c9eef-40a3-4767-9253-706b0b128ed5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"订阅YouTube晓猛科技_87","server":"v8.ssrsub.com","port":443,"type":"vmess","uuid":"916251fa-6aa5-459d-b7a1-968b49a01e4e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_88","server":"dax6ujai.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_89","server":"usa-sanfrancisco.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ws"}}
-  - {"name":"🇰🇷KR韩国订阅YouTube晓猛科技_90","server":"v11.ssrsub.com","port":166,"type":"vmess","uuid":"916251fa-6aa5-459d-b7a1-968b49a01e4e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_91","server":"v2.ssrsub.com","port":8443,"type":"vmess","uuid":"535c9eef-40a3-4767-9253-706b0b128ed5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"订阅YouTube晓猛科技_92","server":"v5.ssrsub.com","port":8443,"type":"vmess","uuid":"535c9eef-40a3-4767-9253-706b0b128ed5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_93","server":"v9.ssrsub.com","port":8443,"type":"vmess","uuid":"916251fa-6aa5-459d-b7a1-968b49a01e4e","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_94","server":"v9.ssrsub.com","port":8443,"type":"vmess","uuid":"535c9eef-40a3-4767-9253-706b0b128ed5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_95","server":"v1.ssrsub.com","port":443,"type":"vmess","uuid":"535c9eef-40a3-4767-9253-706b0b128ed5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_96","server":"api.ssfree.ru","port":443,"type":"vmess","uuid":"ebe1121e-8a25-11ec-b4b8-000017022008","alterId":64,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/getweather"}}
-  - {"name":"订阅YouTube晓猛科技_97","server":"v8.ssrsub.com","port":443,"type":"vmess","uuid":"535c9eef-40a3-4767-9253-706b0b128ed5","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/ssrsub"}}
-  - {"name":"🇰🇷KR韩国订阅YouTube晓猛科技_98","server":"t10.ssrsub.com","port":8443,"type":"trojan","password":"916251fa-6aa5-459d-b7a1-968b49a01e4e","sni":"douyincdn.com"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_99","server":"t8.ssrsub.com","port":8443,"type":"trojan","password":"916251fa-6aa5-459d-b7a1-968b49a01e4e","sni":"douyincdn.com"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_100","server":"t5.ssrsub.com","port":8443,"type":"trojan","password":"916251fa-6aa5-459d-b7a1-968b49a01e4e","sni":"douyincdn.com"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_101","server":"t8.ssrsub.com","port":8443,"type":"trojan","password":"535c9eef-40a3-4767-9253-706b0b128ed5","sni":"douyincdn.com"}
-  - {"name":"🇰🇷KR韩国订阅YouTube晓猛科技_102","server":"t10.ssrsub.com","port":8443,"type":"trojan","password":"535c9eef-40a3-4767-9253-706b0b128ed5","sni":"douyincdn.com"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_103","server":"t5.ssrsub.com","port":8443,"type":"trojan","password":"535c9eef-40a3-4767-9253-706b0b128ed5","sni":"douyincdn.com"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_104","server":"134.195.196.214","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_105","server":"169.197.141.91","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_106","server":"134.195.196.81","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_107","server":"134.195.196.71","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_108","server":"134.195.196.147","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_109","server":"134.195.196.193","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_110","server":"134.195.196.200","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_111","server":"134.195.196.81","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_112","server":"134.195.196.81","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_113","server":"134.195.196.71","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸US美国订阅YouTube晓猛科技_114","server":"169.197.141.91","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_115","server":"134.195.196.71","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_116","server":"134.195.196.71","port":8119,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_117","server":"134.195.196.214","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_118","server":"134.195.196.193","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇨🇦CA加拿大订阅YouTube晓猛科技_119","server":"134.195.196.193","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"US订阅YouTube晓猛科技_120","server":"38.75.136.93","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"US订阅YouTube晓猛科技_121","server":"167.88.63.28","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"US订阅YouTube晓猛科技_122","server":"38.75.136.93","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"US订阅YouTube晓猛科技_123","server":"167.88.63.74","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"US订阅YouTube晓猛科技_124","server":"142.202.48.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"US订阅YouTube晓猛科技_125","server":"167.88.62.34","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"US订阅YouTube晓猛科技_126","server":"38.68.134.23","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"US订阅YouTube晓猛科技_127","server":"167.88.62.34","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"US订阅YouTube晓猛科技_128","server":"38.107.226.49","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"GB订阅YouTube晓猛科技_129","server":"172.99.190.188","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"US订阅YouTube晓猛科技_130","server":"142.202.48.34","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"US订阅YouTube晓猛科技_131","server":"38.114.114.49","port":3306,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"US订阅YouTube晓猛科技_132","server":"167.88.63.28","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"GB订阅YouTube晓猛科技_133","server":"172.99.190.149","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"US订阅YouTube晓猛科技_134","server":"38.68.134.23","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"US订阅YouTube晓猛科技_135","server":"38.68.134.23","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"US订阅YouTube晓猛科技_136","server":"142.202.48.58","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"GB订阅YouTube晓猛科技_137","server":"172.99.190.149","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"US订阅YouTube晓猛科技_138","server":"38.121.43.71","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"GB订阅YouTube晓猛科技_139","server":"172.99.190.149","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"US订阅YouTube晓猛科技_140","server":"38.75.136.93","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"US订阅YouTube晓猛科技_141","server":"38.75.136.93","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"GB订阅YouTube晓猛科技_142","server":"172.99.190.205","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"US订阅YouTube晓猛科技_143","server":"167.88.63.60","port":2376,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"GB订阅YouTube晓猛科技_144","server":"172.99.190.149","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"US订阅YouTube晓猛科技_145","server":"167.88.63.60","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"US订阅YouTube晓猛科技_146","server":"38.107.226.159","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"GB订阅YouTube晓猛科技_147","server":"172.99.190.149","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"US订阅YouTube晓猛科技_148","server":"167.88.61.60","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"US订阅YouTube晓猛科技_149","server":"167.88.63.74","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"US订阅YouTube晓猛科技_150","server":"167.88.61.60","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"US订阅YouTube晓猛科技_151","server":"167.88.61.60","port":443,"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"US订阅YouTube晓猛科技_152","server":"167.88.61.60","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"US订阅YouTube晓猛科技_153","server":"167.88.61.60","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"US订阅YouTube晓猛科技_154","server":"167.88.61.60","port":5601,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"US订阅YouTube晓猛科技_155","server":"167.88.61.60","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"US订阅YouTube晓猛科技_156","server":"167.88.62.34","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"US订阅YouTube晓猛科技_157","server":"167.88.61.60","port":6379,"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"GB订阅YouTube晓猛科技_158","server":"172.99.190.39","port":5600,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"GB订阅YouTube晓猛科技_159","server":"172.99.190.39","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"US订阅YouTube晓猛科技_160","server":"167.88.61.60","port":7306,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"US订阅YouTube晓猛科技_161","server":"167.88.61.60","port":7002,"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"US订阅YouTube晓猛科技_162","server":"167.88.61.60","port":8009,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"US订阅YouTube晓猛科技_163","server":"167.88.61.60","port":3389,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"US订阅YouTube晓猛科技_164","server":"38.75.136.93","port":6697,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"US订阅YouTube晓猛科技_165","server":"38.75.136.93","port":5500,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"US订阅YouTube晓猛科技_166","server":"167.88.61.60","port":8000,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"US订阅YouTube晓猛科技_167","server":"38.75.136.93","port":6679,"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"US订阅YouTube晓猛科技_168","server":"38.121.43.71","port":8091,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"GB订阅YouTube晓猛科技_169","server":"172.99.190.149","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"US订阅YouTube晓猛科技_170","server":"38.121.43.71","port":5003,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"US订阅YouTube晓猛科技_171","server":"167.88.61.60","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"US订阅YouTube晓猛科技_172","server":"38.75.136.93","port":8882,"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"GB订阅YouTube晓猛科技_173","server":"172.99.190.149","port":2375,"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"US订阅YouTube晓猛科技_174","server":"38.91.101.11","port":7307,"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"GB订阅YouTube晓猛科技_175","server":"172.99.190.149","port":8080,"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vmess","name":"TG:@kejixm123_1","server":"使用前记得更新订阅","port":"0","uuid":"6a3bcc08-9c77-4c02-844b-4a694c4f2fea","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵_JP_日本_TG:@kejixm123_1","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"172.104.70.195"}},"server":"172.104.70.195","port":"8080","uuid":"e4e46233-376c-49be-b302-3ff6fce7a8fb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_1","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"%7B%22Host%22:%22armdj.zhdjc.me%22%7D"}},"server":"armdj.zhdjc.me","port":"8080","uuid":"d019484c-2181-4d4a-a0fb-302a55351156","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_2","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"armdj.zhdjc.me"}},"server":"armdj.zhdjc.me","port":"8080","uuid":"157ab24c-2f02-44d2-b211-6d70612c9f64","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国_TG:@kejixm123","server":"913hk.tfzhc.top","port":44311,"password":"db61d0d6-d8e9-4d3e-b86b-81be6243bcee","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇹🇼_TW_台湾_TG:@kejixm123_1","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"s3.cjhh.beauty"}},"server":"hvoou-1042-v2-1.tyo-d-kcd.ap.cjhh.beauty","port":888,"uuid":"fc541302-7a84-4957-8e93-b974094cc7a0","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇰🇷_KR_韩国_TG:@kejixm123","server":"m4.40010010.xyz","port":37121,"uuid":"575e4d92-1056-44c2-8cac-75ef1c859ad5","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_3","server":"64.112.42.72","port":"16999","uuid":"b5a01f44-b981-421a-bdc0-6d9d53da07fd","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵_JP_日本_TG:@kejixm123_2","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"172.104.70.195"}},"server":"172.104.70.195","port":"8080","uuid":"826b8d0a-e0d3-407a-927d-19953c170779","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵_JP_日本_TG:@kejixm123_3","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"172.104.70.195"}},"server":"172.104.70.195","port":"8080","uuid":"157ab24c-2f02-44d2-b211-6d70612c9f64","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇺🇸_US_美国_TG:@kejixm123_4","server":"156.146.38.163","port":443,"cipher":"aes-128-cfb","password":"shadowsocks"}
+  - {"type":"vmess","name":"🇯🇵_JP_日本_TG:@kejixm123_4","ws-opts":{"path":"/","headers":{"host":"jp2.3320.top"}},"server":"jp2.3320.top","port":"443","uuid":"39829295-82d2-47e3-adca-9c9953573323","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇬🇧_GB_英国_TG:@kejixm123_1","server":"212.102.53.78","port":443,"cipher":"aes-128-gcm","password":"shadowsocks"}
+  - {"type":"vmess","name":"🇭🇰_HK_香港_TG:@kejixm123","ws-opts":{"path":"/","headers":{"host":"paopao.v2.hk05.paopaocloud.cyou"}},"server":"az.hk01.paopaocloud.cyou","port":"10003","uuid":"dfc228be-52c3-3c65-a21b-7757f7172639","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇯🇵_JP_日本_TG:@kejixm123_5","ws-opts":{"path":"/"},"server":"jp1.3320.top","port":443,"uuid":"168bd6bb-3061-48a8-8099-95ff7ce3a532","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_5","server":"51.81.223.32","port":443,"uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":32,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_6","server":"64.112.42.53","port":"16999","uuid":"48fb27a4-e6fe-42cf-95bf-103d2318ed5d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_7","server":"149.28.123.123","port":"21008","uuid":"80b5645a-86b7-48af-9252-977ba807a338","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇲🇾_MY_马来西亚_TG:@kejixm123","server":"123.253.32.50","port":31372,"uuid":"678d0d7d-c651-4ae1-ced1-320783565749","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇸🇬_SG_新加坡_TG:@kejixm123_1","server":"99tw03.tfzhc.top","port":443,"password":"db61d0d6-d8e9-4d3e-b86b-81be6243bcee","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_8","server":"216.238.79.208","port":21008,"uuid":"80b5645a-86b7-48af-9252-977ba807a338","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_9","ws-opts":{"path":"/tech","headers":{"host":"weixin.babazhuji.com"}},"server":"weixin.babazhuji.com","port":443,"uuid":"27848739-7e62-4138-9fd3-098a63964b6b","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_10","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"68.183.129.197"}},"server":"68.183.129.197","port":"8080","uuid":"0c7caa09-5c69-42dc-8048-8e8b0d7efd4a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_11","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"68.183.129.197"}},"server":"68.183.129.197","port":"8080","uuid":"d019484c-2181-4d4a-a0fb-302a55351156","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_12","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"68.183.129.197"}},"server":"68.183.129.197","port":"8080","uuid":"157ab24c-2f02-44d2-b211-6d70612c9f64","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_13","ws-opts":{"path":"/","headers":{"host":"frm1.3320.top"}},"server":"frm1.3320.top","port":"443","uuid":"15ebf82a-dd3a-4519-9a89-4e60858d47ab","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇦_CA_加拿大_TG:@kejixm123_1","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"%7B%22Host%22:%22138.197.165.31%22%7D"}},"server":"138.197.165.31","port":"8080","uuid":"0c7caa09-5c69-42dc-8048-8e8b0d7efd4a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇦_CA_加拿大_TG:@kejixm123_2","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"%7B%22Host%22:%22138.197.165.31%22%7D"}},"server":"138.197.165.31","port":"8080","uuid":"bcaf6b8f-0acb-4ffd-86ad-8f13e7dfe436","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_14","ws-opts":{"path":"/","headers":{"host":"frm2.3320.top"}},"server":"frm2.3320.top","port":"443","uuid":"4cc693c4-2f67-4637-bc98-76461fcbf09c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇦_CA_加拿大_TG:@kejixm123_3","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"%7B%22Host%22:%22138.197.165.31%22%7D"}},"server":"138.197.165.31","port":"8080","uuid":"2ed609d0-7467-471b-94a9-34a734ccc40a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_15","ws-opts":{"path":"/path/112100130223","headers":{"host":"www.47538090.xyz"}},"server":"67.21.85.10","port":"443","uuid":"b9a305a9-1ff2-4ec1-b338-933555833baa","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_16","ws-opts":{"path":"/","headers":{"host":"dal1.3320.top"}},"server":"dal1.3320.top","port":"443","uuid":"fa544812-dc89-4368-933d-01c7651a58bf","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_17","ws-opts":{"path":"/path/173418141123","headers":{"host":"www.17080100.xyz"}},"server":"67.21.72.41","port":443,"uuid":"2566d00f-218c-48f7-9a36-13d3d6f1a724","alterId":64,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_18","ws-opts":{"path":"/linmi-USA-CloudCone","headers":{"host":"us-cs.linmi.icu"}},"server":"us-cs.linmi.icu","port":"443","uuid":"9242f350-4b53-49f3-a9b8-26f43090cc0c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_19","ws-opts":{"path":"/oooo","headers":{"host":"baidu.com"}},"server":"v4.heduian.online","port":"30866","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇬🇧_GB_英国_TG:@kejixm123_2","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"165.227.231.254"}},"server":"165.227.231.254","port":"8080","uuid":"0c7caa09-5c69-42dc-8048-8e8b0d7efd4a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TG:@kejixm123_2","ws-opts":{"path":"/b356a4/","headers":{"host":"1dcelis.qiqis.ml"}},"server":"qiqis.cf","port":"443","uuid":"4e6d153c-e5b2-4911-bc72-e11c64f3ce93","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_20","ws-opts":{"path":"/linmi-USA-CloudCone","headers":{"host":"us.linmi.icu"}},"server":"us.linmi.icu","port":"443","uuid":"9242f350-4b53-49f3-a9b8-26f43090cc0c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇬🇧_GB_英国_TG:@kejixm123_3","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"165.227.231.254"}},"server":"165.227.231.254","port":"8080","uuid":"826b8d0a-e0d3-407a-927d-19953c170779","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_21","ws-opts":{"path":"/","headers":{"host":"dal2.3320.top"}},"server":"dal2.3320.top","port":"443","uuid":"feffbcdf-40d4-49cc-a8d3-9fa8872c50c4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬_SG_新加坡_TG:@kejixm123_2","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"139.162.37.111"}},"server":"139.162.37.111","port":"8080","uuid":"bcaf6b8f-0acb-4ffd-86ad-8f13e7dfe436","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇸🇬_SG_新加坡_TG:@kejixm123_3","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"139.162.37.111"}},"server":"139.162.37.111","port":8080,"uuid":"7002330d-fe27-4b56-b22f-d7e3eb825fdb","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇦_CA_加拿大_TG:@kejixm123_4","ws-opts":{"path":"/","headers":{"host":"ca2.3320.top"}},"server":"ca2.3320.top","port":"443","uuid":"fdfe8f6a-5901-46ff-aa39-f4be758aa150","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇫🇷_FR_法国_TG:@kejixm123","ws-opts":{"path":"/vmess","headers":{"host":"M.com"}},"server":"51.178.86.75","port":"80","uuid":"43c1cbf5-22f1-42dd-a3a2-cd1f59fbfff7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇬🇧_GB_英国_TG:@kejixm123_4","ws-opts":{"path":"/","headers":{"host":"uk1.3320.top"}},"server":"uk1.3320.top","port":443,"uuid":"e8d870e3-bce3-4a4f-8166-700a9f3cac35","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬_SG_新加坡_TG:@kejixm123_4","ws-opts":{"path":"/","headers":{"host":"sg2.3320.top"}},"server":"sg2.3320.top","port":"443","uuid":"4111ed89-8dc3-4102-867c-ae807a759d0c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇦_CA_加拿大_TG:@kejixm123_5","ws-opts":{"path":"/vmess"},"server":"ca1.vmess.tunnel.cx","port":80,"uuid":"d6343cfa-3517-11ed-8d1a-27f322ae0dec","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_TG:@kejixm123_22","server":"susan.leosvps.space","port":443,"password":"NGyhpgytIJ","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_23","ws-opts":{"path":"/","headers":{"host":"us-a.linmi.icu"}},"server":"us-a.linmi.icu","port":"443","uuid":"9242f350-4b53-49f3-a9b8-26f43090cc0c","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇦_CA_加拿大_TG:@kejixm123_6","ws-opts":{"path":"/","headers":{"host":"ca1.3320.top"}},"server":"ca1.3320.top","port":"443","uuid":"0a303c5e-676e-446c-bc9b-1052b59a7499","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇹🇼_TW_台湾_TG:@kejixm123_2","server":"913tw.tfzhc.top","port":44318,"password":"db61d0d6-d8e9-4d3e-b86b-81be6243bcee","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇩🇪_DE_德国_TG:@kejixm123_1","ws-opts":{"path":"/javasdkjhugf","headers":{"host":"ae.755657.xyz"}},"server":"ae.755657.xyz","port":"8443","uuid":"11b8206c-8ae2-4ab3-a92c-208cdb8cc73d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_24","ws-opts":{"path":"/d612af774b29/","headers":{"host":"jp.mywh.eu.org"}},"server":"172.64.150.144","port":"443","uuid":"fa94fb93-fef4-4055-bf54-244115640479","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪_DE_德国_TG:@kejixm123_2","ws-opts":{"path":"/","headers":{"host":"de2.3320.top"}},"server":"de2.3320.top","port":"443","uuid":"32ee4c9c-ddf4-4c99-8bae-5c8edddbb25e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇮🇳_IN_印度_TG:@kejixm123_1","ws-opts":{"path":"/","headers":{"host":"in2.3320.top"}},"server":"in2.3320.top","port":"443","uuid":"8c620954-3dec-42ff-92bd-873c4546a150","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪_DE_德国_TG:@kejixm123_3","ws-opts":{"path":"/","headers":{"host":"de1.3320.top"}},"server":"de1.3320.top","port":"443","uuid":"8253d710-f3b5-4f73-9cb0-66e1dd2fef48","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇬🇧_GB_英国_TG:@kejixm123_5","ws-opts":{"path":"/","headers":{"host":"uk2.3320.top"}},"server":"uk2.3320.top","port":"443","uuid":"6cc27d4f-074c-430d-a3a1-64724db55ab5","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG:@kejixm123_3","ws-opts":{"path":"/07a3a1e3-d52e-4acc-958e-c301681b5f09-vmess","headers":{"host":"test.taskerprofile.cf"}},"server":"test.taskerprofile.cf","port":443,"uuid":"07a3a1e3-d52e-4acc-958e-c301681b5f09","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_TG:@kejixm123_1","ws-opts":{"path":"/","headers":{"host":"au2.3320.top"}},"server":"au2.3320.top","port":"443","uuid":"753780ad-c282-4d82-b49b-65ad43533e1a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇦🇺_AU_澳大利亚_TG:@kejixm123_2","server":"wangqifei.ga","port":41477,"password":"3oquVrpxPg","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇮🇳_IN_印度_TG:@kejixm123_2","ws-opts":{"path":"/","headers":{"host":"in1.3320.top"}},"server":"in1.3320.top","port":"443","uuid":"9d476be9-eca3-4561-9b56-6ff4ec1017ba","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇦🇺_AU_澳大利亚_TG:@kejixm123_3","ws-opts":{"path":"/","headers":{"host":"au1.3320.top"}},"server":"au1.3320.top","port":"443","uuid":"c7938aaf-0c69-4bd2-ab22-7a580962c0ec","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TG:@kejixm123_4","ws-opts":{"path":"/ray","headers":{"host":"m5.v2rayfree1.xyz"}},"server":"190.93.246.145","port":443,"uuid":"94887268-f3cb-48be-ade3-87d42faae3e4","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬_SG_新加坡_TG:@kejixm123_5","ws-opts":{"path":"/","headers":{"host":"sg1.3320.top"}},"server":"sg1.3320.top","port":"443","uuid":"0531b31f-f627-473e-8257-7120ccd969a8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_25","ws-opts":{"path":"/zcjd"},"server":"sgp.ycsfree.xyz","port":443,"uuid":"c753e8a8-e180-4e76-a486-c917273d718b","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_26","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"159.223.32.230"}},"server":"159.223.32.230","port":"8080","uuid":"bcaf6b8f-0acb-4ffd-86ad-8f13e7dfe436","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_27","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"159.223.32.230"}},"server":"159.223.32.230","port":8080,"uuid":"826b8d0a-e0d3-407a-927d-19953c170779","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_TG:@kejixm123_28","ws-opts":{"path":"/as","headers":{"host":"xh.linyuch.eu.org"}},"server":"128.14.162.48","port":"443","uuid":"09c4b93c-bc5c-441b-921d-f71706feace3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇬_SG_新加坡_TG:@kejixm123_6","ws-opts":{"path":"/","headers":{"host":"www.gov.hk"}},"server":"43.134.199.221","port":443,"uuid":"e5af0cad-295c-37b2-b601-f35d13f6b1bb","alterId":32,"cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇺🇸_US_美国_TG:@kejixm123_29","server":"169.197.141.14","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸US美国订阅YouTube晓猛科技_1
-      - 🇫🇷FR法国订阅YouTube晓猛科技_2
-      - 🇺🇸US美国订阅YouTube晓猛科技_3
-      - 🇫🇷FR法国订阅YouTube晓猛科技_4
-      - 🇫🇷FR法国订阅YouTube晓猛科技_5
-      - 🇺🇸US美国订阅YouTube晓猛科技_6
-      - 🇺🇸US美国订阅YouTube晓猛科技_7
-      - 🇫🇷FR法国订阅YouTube晓猛科技_8
-      - 🇨🇳CN中国订阅YouTube晓猛科技_9
-      - 🇨🇳CN中国订阅YouTube晓猛科技_10
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_11
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_12
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_13
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_14
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_15
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_16
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_17
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_18
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_19
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_20
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_21
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_22
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_23
-      - 🇺🇸US美国订阅YouTube晓猛科技_24
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_25
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_26
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_27
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_28
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_29
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_30
-      - 🇨🇳CN中国订阅YouTube晓猛科技_31
-      - 🇨🇳CN中国订阅YouTube晓猛科技_32
-      - 🇫🇷FR法国订阅YouTube晓猛科技_33
-      - 🇫🇷FR法国订阅YouTube晓猛科技_34
-      - 🇫🇷FR法国订阅YouTube晓猛科技_35
-      - 🇫🇷FR法国订阅YouTube晓猛科技_36
-      - 🇫🇷FR法国订阅YouTube晓猛科技_37
-      - 🇫🇷FR法国订阅YouTube晓猛科技_38
-      - 🇫🇷FR法国订阅YouTube晓猛科技_39
-      - 🇫🇷FR法国订阅YouTube晓猛科技_40
-      - 🇭🇰HK香港订阅YouTube晓猛科技_41
-      - 🇮🇳IN印度订阅YouTube晓猛科技_42
-      - 🇯🇵JP日本订阅YouTube晓猛科技_43
-      - 🇯🇵JP日本订阅YouTube晓猛科技_44
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_45
-      - 🇨🇳CN中国订阅YouTube晓猛科技_46
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_47
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_48
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_49
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_50
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_51
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_52
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_53
-      - 🇺🇸US美国订阅YouTube晓猛科技_54
-      - 🇺🇸US美国订阅YouTube晓猛科技_55
-      - 🇺🇸US美国订阅YouTube晓猛科技_56
-      - 🇺🇸US美国订阅YouTube晓猛科技_57
-      - 🇺🇸US美国订阅YouTube晓猛科技_58
-      - 🇺🇸US美国订阅YouTube晓猛科技_59
-      - 🇺🇸US美国订阅YouTube晓猛科技_60
-      - 🇺🇸US美国订阅YouTube晓猛科技_61
-      - 🇺🇸US美国订阅YouTube晓猛科技_62
-      - 🇺🇸US美国订阅YouTube晓猛科技_63
-      - 🇺🇸US美国订阅YouTube晓猛科技_64
-      - 🇺🇸US美国订阅YouTube晓猛科技_65
-      - 🇬🇧GB英国订阅YouTube晓猛科技_66
-      - 🇺🇸US美国订阅YouTube晓猛科技_67
-      - 🇬🇧GB英国订阅YouTube晓猛科技_68
-      - 🇺🇸US美国订阅YouTube晓猛科技_69
-      - 🇺🇸US美国订阅YouTube晓猛科技_70
-      - 🇬🇧GB英国订阅YouTube晓猛科技_71
-      - 🇺🇸US美国订阅YouTube晓猛科技_72
-      - 🇺🇸US美国订阅YouTube晓猛科技_73
-      - 🇺🇸US美国订阅YouTube晓猛科技_74
-      - 🇮🇳IN印度订阅YouTube晓猛科技_75
-      - 🇺🇸US美国订阅YouTube晓猛科技_76
-      - 🇬🇧GB英国订阅YouTube晓猛科技_77
-      - 🇬🇧GB英国订阅YouTube晓猛科技_78
-      - 🇬🇧GB英国订阅YouTube晓猛科技_79
-      - 🇬🇧GB英国订阅YouTube晓猛科技_80
-      - 🇺🇸US美国订阅YouTube晓猛科技_81
-      - 🇺🇸US美国订阅YouTube晓猛科技_82
-      - 🇺🇸US美国订阅YouTube晓猛科技_83
-      - 🇺🇸US美国订阅YouTube晓猛科技_84
-      - 🇺🇸US美国订阅YouTube晓猛科技_85
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_86
-      - 订阅YouTube晓猛科技_87
-      - 🇺🇸US美国订阅YouTube晓猛科技_88
-      - 🇺🇸US美国订阅YouTube晓猛科技_89
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_90
-      - 🇺🇸US美国订阅YouTube晓猛科技_91
-      - 订阅YouTube晓猛科技_92
-      - 🇺🇸US美国订阅YouTube晓猛科技_93
-      - 🇺🇸US美国订阅YouTube晓猛科技_94
-      - 🇺🇸US美国订阅YouTube晓猛科技_95
-      - 🇺🇸US美国订阅YouTube晓猛科技_96
-      - 订阅YouTube晓猛科技_97
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_98
-      - 🇺🇸US美国订阅YouTube晓猛科技_99
-      - 🇺🇸US美国订阅YouTube晓猛科技_100
-      - 🇺🇸US美国订阅YouTube晓猛科技_101
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_102
-      - 🇺🇸US美国订阅YouTube晓猛科技_103
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_104
-      - 🇺🇸US美国订阅YouTube晓猛科技_105
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_106
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_107
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_108
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_109
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_110
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_111
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_112
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_113
-      - 🇺🇸US美国订阅YouTube晓猛科技_114
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_115
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_116
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_117
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_118
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_119
-      - US订阅YouTube晓猛科技_120
-      - US订阅YouTube晓猛科技_121
-      - US订阅YouTube晓猛科技_122
-      - US订阅YouTube晓猛科技_123
-      - US订阅YouTube晓猛科技_124
-      - US订阅YouTube晓猛科技_125
-      - US订阅YouTube晓猛科技_126
-      - US订阅YouTube晓猛科技_127
-      - US订阅YouTube晓猛科技_128
-      - GB订阅YouTube晓猛科技_129
-      - US订阅YouTube晓猛科技_130
-      - US订阅YouTube晓猛科技_131
-      - US订阅YouTube晓猛科技_132
-      - GB订阅YouTube晓猛科技_133
-      - US订阅YouTube晓猛科技_134
-      - US订阅YouTube晓猛科技_135
-      - US订阅YouTube晓猛科技_136
-      - GB订阅YouTube晓猛科技_137
-      - US订阅YouTube晓猛科技_138
-      - GB订阅YouTube晓猛科技_139
-      - US订阅YouTube晓猛科技_140
-      - US订阅YouTube晓猛科技_141
-      - GB订阅YouTube晓猛科技_142
-      - US订阅YouTube晓猛科技_143
-      - GB订阅YouTube晓猛科技_144
-      - US订阅YouTube晓猛科技_145
-      - US订阅YouTube晓猛科技_146
-      - GB订阅YouTube晓猛科技_147
-      - US订阅YouTube晓猛科技_148
-      - US订阅YouTube晓猛科技_149
-      - US订阅YouTube晓猛科技_150
-      - US订阅YouTube晓猛科技_151
-      - US订阅YouTube晓猛科技_152
-      - US订阅YouTube晓猛科技_153
-      - US订阅YouTube晓猛科技_154
-      - US订阅YouTube晓猛科技_155
-      - US订阅YouTube晓猛科技_156
-      - US订阅YouTube晓猛科技_157
-      - GB订阅YouTube晓猛科技_158
-      - GB订阅YouTube晓猛科技_159
-      - US订阅YouTube晓猛科技_160
-      - US订阅YouTube晓猛科技_161
-      - US订阅YouTube晓猛科技_162
-      - US订阅YouTube晓猛科技_163
-      - US订阅YouTube晓猛科技_164
-      - US订阅YouTube晓猛科技_165
-      - US订阅YouTube晓猛科技_166
-      - US订阅YouTube晓猛科技_167
-      - US订阅YouTube晓猛科技_168
-      - GB订阅YouTube晓猛科技_169
-      - US订阅YouTube晓猛科技_170
-      - US订阅YouTube晓猛科技_171
-      - US订阅YouTube晓猛科技_172
-      - GB订阅YouTube晓猛科技_173
-      - US订阅YouTube晓猛科技_174
-      - GB订阅YouTube晓猛科技_175
+      - TG:@kejixm123_1
+      - 🇯🇵_JP_日本_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_2
+      - 🇨🇳_CN_中国_TG:@kejixm123
+      - 🇹🇼_TW_台湾_TG:@kejixm123_1
+      - 🇰🇷_KR_韩国_TG:@kejixm123
+      - 🇺🇸_US_美国_TG:@kejixm123_3
+      - 🇯🇵_JP_日本_TG:@kejixm123_2
+      - 🇯🇵_JP_日本_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_4
+      - 🇯🇵_JP_日本_TG:@kejixm123_4
+      - 🇬🇧_GB_英国_TG:@kejixm123_1
+      - 🇭🇰_HK_香港_TG:@kejixm123
+      - 🇯🇵_JP_日本_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_7
+      - 🇲🇾_MY_马来西亚_TG:@kejixm123
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_8
+      - 🇺🇸_US_美国_TG:@kejixm123_9
+      - 🇺🇸_US_美国_TG:@kejixm123_10
+      - 🇺🇸_US_美国_TG:@kejixm123_11
+      - 🇺🇸_US_美国_TG:@kejixm123_12
+      - 🇺🇸_US_美国_TG:@kejixm123_13
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_1
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_14
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_15
+      - 🇺🇸_US_美国_TG:@kejixm123_16
+      - 🇺🇸_US_美国_TG:@kejixm123_17
+      - 🇺🇸_US_美国_TG:@kejixm123_18
+      - 🇺🇸_US_美国_TG:@kejixm123_19
+      - 🇬🇧_GB_英国_TG:@kejixm123_2
+      - TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_20
+      - 🇬🇧_GB_英国_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_21
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_2
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_3
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_4
+      - 🇫🇷_FR_法国_TG:@kejixm123
+      - 🇬🇧_GB_英国_TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_4
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_22
+      - 🇺🇸_US_美国_TG:@kejixm123_23
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_6
+      - 🇹🇼_TW_台湾_TG:@kejixm123_2
+      - 🇩🇪_DE_德国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_24
+      - 🇩🇪_DE_德国_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_1
+      - 🇩🇪_DE_德国_TG:@kejixm123_3
+      - 🇬🇧_GB_英国_TG:@kejixm123_5
+      - TG:@kejixm123_3
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_1
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_2
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_3
+      - TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_25
+      - 🇺🇸_US_美国_TG:@kejixm123_26
+      - 🇺🇸_US_美国_TG:@kejixm123_27
+      - 🇺🇸_US_美国_TG:@kejixm123_28
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_29
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸US美国订阅YouTube晓猛科技_1
-      - 🇫🇷FR法国订阅YouTube晓猛科技_2
-      - 🇺🇸US美国订阅YouTube晓猛科技_3
-      - 🇫🇷FR法国订阅YouTube晓猛科技_4
-      - 🇫🇷FR法国订阅YouTube晓猛科技_5
-      - 🇺🇸US美国订阅YouTube晓猛科技_6
-      - 🇺🇸US美国订阅YouTube晓猛科技_7
-      - 🇫🇷FR法国订阅YouTube晓猛科技_8
-      - 🇨🇳CN中国订阅YouTube晓猛科技_9
-      - 🇨🇳CN中国订阅YouTube晓猛科技_10
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_11
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_12
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_13
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_14
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_15
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_16
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_17
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_18
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_19
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_20
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_21
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_22
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_23
-      - 🇺🇸US美国订阅YouTube晓猛科技_24
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_25
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_26
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_27
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_28
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_29
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_30
-      - 🇨🇳CN中国订阅YouTube晓猛科技_31
-      - 🇨🇳CN中国订阅YouTube晓猛科技_32
-      - 🇫🇷FR法国订阅YouTube晓猛科技_33
-      - 🇫🇷FR法国订阅YouTube晓猛科技_34
-      - 🇫🇷FR法国订阅YouTube晓猛科技_35
-      - 🇫🇷FR法国订阅YouTube晓猛科技_36
-      - 🇫🇷FR法国订阅YouTube晓猛科技_37
-      - 🇫🇷FR法国订阅YouTube晓猛科技_38
-      - 🇫🇷FR法国订阅YouTube晓猛科技_39
-      - 🇫🇷FR法国订阅YouTube晓猛科技_40
-      - 🇭🇰HK香港订阅YouTube晓猛科技_41
-      - 🇮🇳IN印度订阅YouTube晓猛科技_42
-      - 🇯🇵JP日本订阅YouTube晓猛科技_43
-      - 🇯🇵JP日本订阅YouTube晓猛科技_44
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_45
-      - 🇨🇳CN中国订阅YouTube晓猛科技_46
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_47
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_48
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_49
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_50
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_51
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_52
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_53
-      - 🇺🇸US美国订阅YouTube晓猛科技_54
-      - 🇺🇸US美国订阅YouTube晓猛科技_55
-      - 🇺🇸US美国订阅YouTube晓猛科技_56
-      - 🇺🇸US美国订阅YouTube晓猛科技_57
-      - 🇺🇸US美国订阅YouTube晓猛科技_58
-      - 🇺🇸US美国订阅YouTube晓猛科技_59
-      - 🇺🇸US美国订阅YouTube晓猛科技_60
-      - 🇺🇸US美国订阅YouTube晓猛科技_61
-      - 🇺🇸US美国订阅YouTube晓猛科技_62
-      - 🇺🇸US美国订阅YouTube晓猛科技_63
-      - 🇺🇸US美国订阅YouTube晓猛科技_64
-      - 🇺🇸US美国订阅YouTube晓猛科技_65
-      - 🇬🇧GB英国订阅YouTube晓猛科技_66
-      - 🇺🇸US美国订阅YouTube晓猛科技_67
-      - 🇬🇧GB英国订阅YouTube晓猛科技_68
-      - 🇺🇸US美国订阅YouTube晓猛科技_69
-      - 🇺🇸US美国订阅YouTube晓猛科技_70
-      - 🇬🇧GB英国订阅YouTube晓猛科技_71
-      - 🇺🇸US美国订阅YouTube晓猛科技_72
-      - 🇺🇸US美国订阅YouTube晓猛科技_73
-      - 🇺🇸US美国订阅YouTube晓猛科技_74
-      - 🇮🇳IN印度订阅YouTube晓猛科技_75
-      - 🇺🇸US美国订阅YouTube晓猛科技_76
-      - 🇬🇧GB英国订阅YouTube晓猛科技_77
-      - 🇬🇧GB英国订阅YouTube晓猛科技_78
-      - 🇬🇧GB英国订阅YouTube晓猛科技_79
-      - 🇬🇧GB英国订阅YouTube晓猛科技_80
-      - 🇺🇸US美国订阅YouTube晓猛科技_81
-      - 🇺🇸US美国订阅YouTube晓猛科技_82
-      - 🇺🇸US美国订阅YouTube晓猛科技_83
-      - 🇺🇸US美国订阅YouTube晓猛科技_84
-      - 🇺🇸US美国订阅YouTube晓猛科技_85
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_86
-      - 订阅YouTube晓猛科技_87
-      - 🇺🇸US美国订阅YouTube晓猛科技_88
-      - 🇺🇸US美国订阅YouTube晓猛科技_89
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_90
-      - 🇺🇸US美国订阅YouTube晓猛科技_91
-      - 订阅YouTube晓猛科技_92
-      - 🇺🇸US美国订阅YouTube晓猛科技_93
-      - 🇺🇸US美国订阅YouTube晓猛科技_94
-      - 🇺🇸US美国订阅YouTube晓猛科技_95
-      - 🇺🇸US美国订阅YouTube晓猛科技_96
-      - 订阅YouTube晓猛科技_97
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_98
-      - 🇺🇸US美国订阅YouTube晓猛科技_99
-      - 🇺🇸US美国订阅YouTube晓猛科技_100
-      - 🇺🇸US美国订阅YouTube晓猛科技_101
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_102
-      - 🇺🇸US美国订阅YouTube晓猛科技_103
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_104
-      - 🇺🇸US美国订阅YouTube晓猛科技_105
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_106
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_107
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_108
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_109
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_110
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_111
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_112
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_113
-      - 🇺🇸US美国订阅YouTube晓猛科技_114
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_115
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_116
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_117
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_118
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_119
-      - US订阅YouTube晓猛科技_120
-      - US订阅YouTube晓猛科技_121
-      - US订阅YouTube晓猛科技_122
-      - US订阅YouTube晓猛科技_123
-      - US订阅YouTube晓猛科技_124
-      - US订阅YouTube晓猛科技_125
-      - US订阅YouTube晓猛科技_126
-      - US订阅YouTube晓猛科技_127
-      - US订阅YouTube晓猛科技_128
-      - GB订阅YouTube晓猛科技_129
-      - US订阅YouTube晓猛科技_130
-      - US订阅YouTube晓猛科技_131
-      - US订阅YouTube晓猛科技_132
-      - GB订阅YouTube晓猛科技_133
-      - US订阅YouTube晓猛科技_134
-      - US订阅YouTube晓猛科技_135
-      - US订阅YouTube晓猛科技_136
-      - GB订阅YouTube晓猛科技_137
-      - US订阅YouTube晓猛科技_138
-      - GB订阅YouTube晓猛科技_139
-      - US订阅YouTube晓猛科技_140
-      - US订阅YouTube晓猛科技_141
-      - GB订阅YouTube晓猛科技_142
-      - US订阅YouTube晓猛科技_143
-      - GB订阅YouTube晓猛科技_144
-      - US订阅YouTube晓猛科技_145
-      - US订阅YouTube晓猛科技_146
-      - GB订阅YouTube晓猛科技_147
-      - US订阅YouTube晓猛科技_148
-      - US订阅YouTube晓猛科技_149
-      - US订阅YouTube晓猛科技_150
-      - US订阅YouTube晓猛科技_151
-      - US订阅YouTube晓猛科技_152
-      - US订阅YouTube晓猛科技_153
-      - US订阅YouTube晓猛科技_154
-      - US订阅YouTube晓猛科技_155
-      - US订阅YouTube晓猛科技_156
-      - US订阅YouTube晓猛科技_157
-      - GB订阅YouTube晓猛科技_158
-      - GB订阅YouTube晓猛科技_159
-      - US订阅YouTube晓猛科技_160
-      - US订阅YouTube晓猛科技_161
-      - US订阅YouTube晓猛科技_162
-      - US订阅YouTube晓猛科技_163
-      - US订阅YouTube晓猛科技_164
-      - US订阅YouTube晓猛科技_165
-      - US订阅YouTube晓猛科技_166
-      - US订阅YouTube晓猛科技_167
-      - US订阅YouTube晓猛科技_168
-      - GB订阅YouTube晓猛科技_169
-      - US订阅YouTube晓猛科技_170
-      - US订阅YouTube晓猛科技_171
-      - US订阅YouTube晓猛科技_172
-      - GB订阅YouTube晓猛科技_173
-      - US订阅YouTube晓猛科技_174
-      - GB订阅YouTube晓猛科技_175
+      - TG:@kejixm123_1
+      - 🇯🇵_JP_日本_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_2
+      - 🇨🇳_CN_中国_TG:@kejixm123
+      - 🇹🇼_TW_台湾_TG:@kejixm123_1
+      - 🇰🇷_KR_韩国_TG:@kejixm123
+      - 🇺🇸_US_美国_TG:@kejixm123_3
+      - 🇯🇵_JP_日本_TG:@kejixm123_2
+      - 🇯🇵_JP_日本_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_4
+      - 🇯🇵_JP_日本_TG:@kejixm123_4
+      - 🇬🇧_GB_英国_TG:@kejixm123_1
+      - 🇭🇰_HK_香港_TG:@kejixm123
+      - 🇯🇵_JP_日本_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_7
+      - 🇲🇾_MY_马来西亚_TG:@kejixm123
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_8
+      - 🇺🇸_US_美国_TG:@kejixm123_9
+      - 🇺🇸_US_美国_TG:@kejixm123_10
+      - 🇺🇸_US_美国_TG:@kejixm123_11
+      - 🇺🇸_US_美国_TG:@kejixm123_12
+      - 🇺🇸_US_美国_TG:@kejixm123_13
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_1
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_14
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_15
+      - 🇺🇸_US_美国_TG:@kejixm123_16
+      - 🇺🇸_US_美国_TG:@kejixm123_17
+      - 🇺🇸_US_美国_TG:@kejixm123_18
+      - 🇺🇸_US_美国_TG:@kejixm123_19
+      - 🇬🇧_GB_英国_TG:@kejixm123_2
+      - TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_20
+      - 🇬🇧_GB_英国_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_21
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_2
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_3
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_4
+      - 🇫🇷_FR_法国_TG:@kejixm123
+      - 🇬🇧_GB_英国_TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_4
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_22
+      - 🇺🇸_US_美国_TG:@kejixm123_23
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_6
+      - 🇹🇼_TW_台湾_TG:@kejixm123_2
+      - 🇩🇪_DE_德国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_24
+      - 🇩🇪_DE_德国_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_1
+      - 🇩🇪_DE_德国_TG:@kejixm123_3
+      - 🇬🇧_GB_英国_TG:@kejixm123_5
+      - TG:@kejixm123_3
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_1
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_2
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_3
+      - TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_25
+      - 🇺🇸_US_美国_TG:@kejixm123_26
+      - 🇺🇸_US_美国_TG:@kejixm123_27
+      - 🇺🇸_US_美国_TG:@kejixm123_28
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_29
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸US美国订阅YouTube晓猛科技_1
-      - 🇫🇷FR法国订阅YouTube晓猛科技_2
-      - 🇺🇸US美国订阅YouTube晓猛科技_3
-      - 🇫🇷FR法国订阅YouTube晓猛科技_4
-      - 🇫🇷FR法国订阅YouTube晓猛科技_5
-      - 🇺🇸US美国订阅YouTube晓猛科技_6
-      - 🇺🇸US美国订阅YouTube晓猛科技_7
-      - 🇫🇷FR法国订阅YouTube晓猛科技_8
-      - 🇨🇳CN中国订阅YouTube晓猛科技_9
-      - 🇨🇳CN中国订阅YouTube晓猛科技_10
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_11
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_12
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_13
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_14
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_15
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_16
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_17
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_18
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_19
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_20
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_21
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_22
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_23
-      - 🇺🇸US美国订阅YouTube晓猛科技_24
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_25
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_26
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_27
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_28
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_29
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_30
-      - 🇨🇳CN中国订阅YouTube晓猛科技_31
-      - 🇨🇳CN中国订阅YouTube晓猛科技_32
-      - 🇫🇷FR法国订阅YouTube晓猛科技_33
-      - 🇫🇷FR法国订阅YouTube晓猛科技_34
-      - 🇫🇷FR法国订阅YouTube晓猛科技_35
-      - 🇫🇷FR法国订阅YouTube晓猛科技_36
-      - 🇫🇷FR法国订阅YouTube晓猛科技_37
-      - 🇫🇷FR法国订阅YouTube晓猛科技_38
-      - 🇫🇷FR法国订阅YouTube晓猛科技_39
-      - 🇫🇷FR法国订阅YouTube晓猛科技_40
-      - 🇭🇰HK香港订阅YouTube晓猛科技_41
-      - 🇮🇳IN印度订阅YouTube晓猛科技_42
-      - 🇯🇵JP日本订阅YouTube晓猛科技_43
-      - 🇯🇵JP日本订阅YouTube晓猛科技_44
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_45
-      - 🇨🇳CN中国订阅YouTube晓猛科技_46
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_47
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_48
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_49
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_50
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_51
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_52
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_53
-      - 🇺🇸US美国订阅YouTube晓猛科技_54
-      - 🇺🇸US美国订阅YouTube晓猛科技_55
-      - 🇺🇸US美国订阅YouTube晓猛科技_56
-      - 🇺🇸US美国订阅YouTube晓猛科技_57
-      - 🇺🇸US美国订阅YouTube晓猛科技_58
-      - 🇺🇸US美国订阅YouTube晓猛科技_59
-      - 🇺🇸US美国订阅YouTube晓猛科技_60
-      - 🇺🇸US美国订阅YouTube晓猛科技_61
-      - 🇺🇸US美国订阅YouTube晓猛科技_62
-      - 🇺🇸US美国订阅YouTube晓猛科技_63
-      - 🇺🇸US美国订阅YouTube晓猛科技_64
-      - 🇺🇸US美国订阅YouTube晓猛科技_65
-      - 🇬🇧GB英国订阅YouTube晓猛科技_66
-      - 🇺🇸US美国订阅YouTube晓猛科技_67
-      - 🇬🇧GB英国订阅YouTube晓猛科技_68
-      - 🇺🇸US美国订阅YouTube晓猛科技_69
-      - 🇺🇸US美国订阅YouTube晓猛科技_70
-      - 🇬🇧GB英国订阅YouTube晓猛科技_71
-      - 🇺🇸US美国订阅YouTube晓猛科技_72
-      - 🇺🇸US美国订阅YouTube晓猛科技_73
-      - 🇺🇸US美国订阅YouTube晓猛科技_74
-      - 🇮🇳IN印度订阅YouTube晓猛科技_75
-      - 🇺🇸US美国订阅YouTube晓猛科技_76
-      - 🇬🇧GB英国订阅YouTube晓猛科技_77
-      - 🇬🇧GB英国订阅YouTube晓猛科技_78
-      - 🇬🇧GB英国订阅YouTube晓猛科技_79
-      - 🇬🇧GB英国订阅YouTube晓猛科技_80
-      - 🇺🇸US美国订阅YouTube晓猛科技_81
-      - 🇺🇸US美国订阅YouTube晓猛科技_82
-      - 🇺🇸US美国订阅YouTube晓猛科技_83
-      - 🇺🇸US美国订阅YouTube晓猛科技_84
-      - 🇺🇸US美国订阅YouTube晓猛科技_85
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_86
-      - 订阅YouTube晓猛科技_87
-      - 🇺🇸US美国订阅YouTube晓猛科技_88
-      - 🇺🇸US美国订阅YouTube晓猛科技_89
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_90
-      - 🇺🇸US美国订阅YouTube晓猛科技_91
-      - 订阅YouTube晓猛科技_92
-      - 🇺🇸US美国订阅YouTube晓猛科技_93
-      - 🇺🇸US美国订阅YouTube晓猛科技_94
-      - 🇺🇸US美国订阅YouTube晓猛科技_95
-      - 🇺🇸US美国订阅YouTube晓猛科技_96
-      - 订阅YouTube晓猛科技_97
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_98
-      - 🇺🇸US美国订阅YouTube晓猛科技_99
-      - 🇺🇸US美国订阅YouTube晓猛科技_100
-      - 🇺🇸US美国订阅YouTube晓猛科技_101
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_102
-      - 🇺🇸US美国订阅YouTube晓猛科技_103
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_104
-      - 🇺🇸US美国订阅YouTube晓猛科技_105
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_106
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_107
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_108
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_109
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_110
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_111
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_112
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_113
-      - 🇺🇸US美国订阅YouTube晓猛科技_114
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_115
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_116
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_117
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_118
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_119
-      - US订阅YouTube晓猛科技_120
-      - US订阅YouTube晓猛科技_121
-      - US订阅YouTube晓猛科技_122
-      - US订阅YouTube晓猛科技_123
-      - US订阅YouTube晓猛科技_124
-      - US订阅YouTube晓猛科技_125
-      - US订阅YouTube晓猛科技_126
-      - US订阅YouTube晓猛科技_127
-      - US订阅YouTube晓猛科技_128
-      - GB订阅YouTube晓猛科技_129
-      - US订阅YouTube晓猛科技_130
-      - US订阅YouTube晓猛科技_131
-      - US订阅YouTube晓猛科技_132
-      - GB订阅YouTube晓猛科技_133
-      - US订阅YouTube晓猛科技_134
-      - US订阅YouTube晓猛科技_135
-      - US订阅YouTube晓猛科技_136
-      - GB订阅YouTube晓猛科技_137
-      - US订阅YouTube晓猛科技_138
-      - GB订阅YouTube晓猛科技_139
-      - US订阅YouTube晓猛科技_140
-      - US订阅YouTube晓猛科技_141
-      - GB订阅YouTube晓猛科技_142
-      - US订阅YouTube晓猛科技_143
-      - GB订阅YouTube晓猛科技_144
-      - US订阅YouTube晓猛科技_145
-      - US订阅YouTube晓猛科技_146
-      - GB订阅YouTube晓猛科技_147
-      - US订阅YouTube晓猛科技_148
-      - US订阅YouTube晓猛科技_149
-      - US订阅YouTube晓猛科技_150
-      - US订阅YouTube晓猛科技_151
-      - US订阅YouTube晓猛科技_152
-      - US订阅YouTube晓猛科技_153
-      - US订阅YouTube晓猛科技_154
-      - US订阅YouTube晓猛科技_155
-      - US订阅YouTube晓猛科技_156
-      - US订阅YouTube晓猛科技_157
-      - GB订阅YouTube晓猛科技_158
-      - GB订阅YouTube晓猛科技_159
-      - US订阅YouTube晓猛科技_160
-      - US订阅YouTube晓猛科技_161
-      - US订阅YouTube晓猛科技_162
-      - US订阅YouTube晓猛科技_163
-      - US订阅YouTube晓猛科技_164
-      - US订阅YouTube晓猛科技_165
-      - US订阅YouTube晓猛科技_166
-      - US订阅YouTube晓猛科技_167
-      - US订阅YouTube晓猛科技_168
-      - GB订阅YouTube晓猛科技_169
-      - US订阅YouTube晓猛科技_170
-      - US订阅YouTube晓猛科技_171
-      - US订阅YouTube晓猛科技_172
-      - GB订阅YouTube晓猛科技_173
-      - US订阅YouTube晓猛科技_174
-      - GB订阅YouTube晓猛科技_175
+      - TG:@kejixm123_1
+      - 🇯🇵_JP_日本_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_2
+      - 🇨🇳_CN_中国_TG:@kejixm123
+      - 🇹🇼_TW_台湾_TG:@kejixm123_1
+      - 🇰🇷_KR_韩国_TG:@kejixm123
+      - 🇺🇸_US_美国_TG:@kejixm123_3
+      - 🇯🇵_JP_日本_TG:@kejixm123_2
+      - 🇯🇵_JP_日本_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_4
+      - 🇯🇵_JP_日本_TG:@kejixm123_4
+      - 🇬🇧_GB_英国_TG:@kejixm123_1
+      - 🇭🇰_HK_香港_TG:@kejixm123
+      - 🇯🇵_JP_日本_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_7
+      - 🇲🇾_MY_马来西亚_TG:@kejixm123
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_8
+      - 🇺🇸_US_美国_TG:@kejixm123_9
+      - 🇺🇸_US_美国_TG:@kejixm123_10
+      - 🇺🇸_US_美国_TG:@kejixm123_11
+      - 🇺🇸_US_美国_TG:@kejixm123_12
+      - 🇺🇸_US_美国_TG:@kejixm123_13
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_1
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_14
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_15
+      - 🇺🇸_US_美国_TG:@kejixm123_16
+      - 🇺🇸_US_美国_TG:@kejixm123_17
+      - 🇺🇸_US_美国_TG:@kejixm123_18
+      - 🇺🇸_US_美国_TG:@kejixm123_19
+      - 🇬🇧_GB_英国_TG:@kejixm123_2
+      - TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_20
+      - 🇬🇧_GB_英国_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_21
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_2
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_3
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_4
+      - 🇫🇷_FR_法国_TG:@kejixm123
+      - 🇬🇧_GB_英国_TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_4
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_22
+      - 🇺🇸_US_美国_TG:@kejixm123_23
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_6
+      - 🇹🇼_TW_台湾_TG:@kejixm123_2
+      - 🇩🇪_DE_德国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_24
+      - 🇩🇪_DE_德国_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_1
+      - 🇩🇪_DE_德国_TG:@kejixm123_3
+      - 🇬🇧_GB_英国_TG:@kejixm123_5
+      - TG:@kejixm123_3
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_1
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_2
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_3
+      - TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_25
+      - 🇺🇸_US_美国_TG:@kejixm123_26
+      - 🇺🇸_US_美国_TG:@kejixm123_27
+      - 🇺🇸_US_美国_TG:@kejixm123_28
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_29
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸US美国订阅YouTube晓猛科技_1
-      - 🇫🇷FR法国订阅YouTube晓猛科技_2
-      - 🇺🇸US美国订阅YouTube晓猛科技_3
-      - 🇫🇷FR法国订阅YouTube晓猛科技_4
-      - 🇫🇷FR法国订阅YouTube晓猛科技_5
-      - 🇺🇸US美国订阅YouTube晓猛科技_6
-      - 🇺🇸US美国订阅YouTube晓猛科技_7
-      - 🇫🇷FR法国订阅YouTube晓猛科技_8
-      - 🇨🇳CN中国订阅YouTube晓猛科技_9
-      - 🇨🇳CN中国订阅YouTube晓猛科技_10
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_11
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_12
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_13
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_14
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_15
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_16
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_17
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_18
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_19
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_20
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_21
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_22
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_23
-      - 🇺🇸US美国订阅YouTube晓猛科技_24
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_25
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_26
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_27
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_28
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_29
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_30
-      - 🇨🇳CN中国订阅YouTube晓猛科技_31
-      - 🇨🇳CN中国订阅YouTube晓猛科技_32
-      - 🇫🇷FR法国订阅YouTube晓猛科技_33
-      - 🇫🇷FR法国订阅YouTube晓猛科技_34
-      - 🇫🇷FR法国订阅YouTube晓猛科技_35
-      - 🇫🇷FR法国订阅YouTube晓猛科技_36
-      - 🇫🇷FR法国订阅YouTube晓猛科技_37
-      - 🇫🇷FR法国订阅YouTube晓猛科技_38
-      - 🇫🇷FR法国订阅YouTube晓猛科技_39
-      - 🇫🇷FR法国订阅YouTube晓猛科技_40
-      - 🇭🇰HK香港订阅YouTube晓猛科技_41
-      - 🇮🇳IN印度订阅YouTube晓猛科技_42
-      - 🇯🇵JP日本订阅YouTube晓猛科技_43
-      - 🇯🇵JP日本订阅YouTube晓猛科技_44
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_45
-      - 🇨🇳CN中国订阅YouTube晓猛科技_46
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_47
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_48
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_49
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_50
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_51
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_52
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_53
-      - 🇺🇸US美国订阅YouTube晓猛科技_54
-      - 🇺🇸US美国订阅YouTube晓猛科技_55
-      - 🇺🇸US美国订阅YouTube晓猛科技_56
-      - 🇺🇸US美国订阅YouTube晓猛科技_57
-      - 🇺🇸US美国订阅YouTube晓猛科技_58
-      - 🇺🇸US美国订阅YouTube晓猛科技_59
-      - 🇺🇸US美国订阅YouTube晓猛科技_60
-      - 🇺🇸US美国订阅YouTube晓猛科技_61
-      - 🇺🇸US美国订阅YouTube晓猛科技_62
-      - 🇺🇸US美国订阅YouTube晓猛科技_63
-      - 🇺🇸US美国订阅YouTube晓猛科技_64
-      - 🇺🇸US美国订阅YouTube晓猛科技_65
-      - 🇬🇧GB英国订阅YouTube晓猛科技_66
-      - 🇺🇸US美国订阅YouTube晓猛科技_67
-      - 🇬🇧GB英国订阅YouTube晓猛科技_68
-      - 🇺🇸US美国订阅YouTube晓猛科技_69
-      - 🇺🇸US美国订阅YouTube晓猛科技_70
-      - 🇬🇧GB英国订阅YouTube晓猛科技_71
-      - 🇺🇸US美国订阅YouTube晓猛科技_72
-      - 🇺🇸US美国订阅YouTube晓猛科技_73
-      - 🇺🇸US美国订阅YouTube晓猛科技_74
-      - 🇮🇳IN印度订阅YouTube晓猛科技_75
-      - 🇺🇸US美国订阅YouTube晓猛科技_76
-      - 🇬🇧GB英国订阅YouTube晓猛科技_77
-      - 🇬🇧GB英国订阅YouTube晓猛科技_78
-      - 🇬🇧GB英国订阅YouTube晓猛科技_79
-      - 🇬🇧GB英国订阅YouTube晓猛科技_80
-      - 🇺🇸US美国订阅YouTube晓猛科技_81
-      - 🇺🇸US美国订阅YouTube晓猛科技_82
-      - 🇺🇸US美国订阅YouTube晓猛科技_83
-      - 🇺🇸US美国订阅YouTube晓猛科技_84
-      - 🇺🇸US美国订阅YouTube晓猛科技_85
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_86
-      - 订阅YouTube晓猛科技_87
-      - 🇺🇸US美国订阅YouTube晓猛科技_88
-      - 🇺🇸US美国订阅YouTube晓猛科技_89
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_90
-      - 🇺🇸US美国订阅YouTube晓猛科技_91
-      - 订阅YouTube晓猛科技_92
-      - 🇺🇸US美国订阅YouTube晓猛科技_93
-      - 🇺🇸US美国订阅YouTube晓猛科技_94
-      - 🇺🇸US美国订阅YouTube晓猛科技_95
-      - 🇺🇸US美国订阅YouTube晓猛科技_96
-      - 订阅YouTube晓猛科技_97
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_98
-      - 🇺🇸US美国订阅YouTube晓猛科技_99
-      - 🇺🇸US美国订阅YouTube晓猛科技_100
-      - 🇺🇸US美国订阅YouTube晓猛科技_101
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_102
-      - 🇺🇸US美国订阅YouTube晓猛科技_103
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_104
-      - 🇺🇸US美国订阅YouTube晓猛科技_105
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_106
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_107
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_108
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_109
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_110
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_111
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_112
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_113
-      - 🇺🇸US美国订阅YouTube晓猛科技_114
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_115
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_116
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_117
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_118
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_119
-      - US订阅YouTube晓猛科技_120
-      - US订阅YouTube晓猛科技_121
-      - US订阅YouTube晓猛科技_122
-      - US订阅YouTube晓猛科技_123
-      - US订阅YouTube晓猛科技_124
-      - US订阅YouTube晓猛科技_125
-      - US订阅YouTube晓猛科技_126
-      - US订阅YouTube晓猛科技_127
-      - US订阅YouTube晓猛科技_128
-      - GB订阅YouTube晓猛科技_129
-      - US订阅YouTube晓猛科技_130
-      - US订阅YouTube晓猛科技_131
-      - US订阅YouTube晓猛科技_132
-      - GB订阅YouTube晓猛科技_133
-      - US订阅YouTube晓猛科技_134
-      - US订阅YouTube晓猛科技_135
-      - US订阅YouTube晓猛科技_136
-      - GB订阅YouTube晓猛科技_137
-      - US订阅YouTube晓猛科技_138
-      - GB订阅YouTube晓猛科技_139
-      - US订阅YouTube晓猛科技_140
-      - US订阅YouTube晓猛科技_141
-      - GB订阅YouTube晓猛科技_142
-      - US订阅YouTube晓猛科技_143
-      - GB订阅YouTube晓猛科技_144
-      - US订阅YouTube晓猛科技_145
-      - US订阅YouTube晓猛科技_146
-      - GB订阅YouTube晓猛科技_147
-      - US订阅YouTube晓猛科技_148
-      - US订阅YouTube晓猛科技_149
-      - US订阅YouTube晓猛科技_150
-      - US订阅YouTube晓猛科技_151
-      - US订阅YouTube晓猛科技_152
-      - US订阅YouTube晓猛科技_153
-      - US订阅YouTube晓猛科技_154
-      - US订阅YouTube晓猛科技_155
-      - US订阅YouTube晓猛科技_156
-      - US订阅YouTube晓猛科技_157
-      - GB订阅YouTube晓猛科技_158
-      - GB订阅YouTube晓猛科技_159
-      - US订阅YouTube晓猛科技_160
-      - US订阅YouTube晓猛科技_161
-      - US订阅YouTube晓猛科技_162
-      - US订阅YouTube晓猛科技_163
-      - US订阅YouTube晓猛科技_164
-      - US订阅YouTube晓猛科技_165
-      - US订阅YouTube晓猛科技_166
-      - US订阅YouTube晓猛科技_167
-      - US订阅YouTube晓猛科技_168
-      - GB订阅YouTube晓猛科技_169
-      - US订阅YouTube晓猛科技_170
-      - US订阅YouTube晓猛科技_171
-      - US订阅YouTube晓猛科技_172
-      - GB订阅YouTube晓猛科技_173
-      - US订阅YouTube晓猛科技_174
-      - GB订阅YouTube晓猛科技_175
+      - TG:@kejixm123_1
+      - 🇯🇵_JP_日本_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_2
+      - 🇨🇳_CN_中国_TG:@kejixm123
+      - 🇹🇼_TW_台湾_TG:@kejixm123_1
+      - 🇰🇷_KR_韩国_TG:@kejixm123
+      - 🇺🇸_US_美国_TG:@kejixm123_3
+      - 🇯🇵_JP_日本_TG:@kejixm123_2
+      - 🇯🇵_JP_日本_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_4
+      - 🇯🇵_JP_日本_TG:@kejixm123_4
+      - 🇬🇧_GB_英国_TG:@kejixm123_1
+      - 🇭🇰_HK_香港_TG:@kejixm123
+      - 🇯🇵_JP_日本_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_7
+      - 🇲🇾_MY_马来西亚_TG:@kejixm123
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_8
+      - 🇺🇸_US_美国_TG:@kejixm123_9
+      - 🇺🇸_US_美国_TG:@kejixm123_10
+      - 🇺🇸_US_美国_TG:@kejixm123_11
+      - 🇺🇸_US_美国_TG:@kejixm123_12
+      - 🇺🇸_US_美国_TG:@kejixm123_13
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_1
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_14
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_15
+      - 🇺🇸_US_美国_TG:@kejixm123_16
+      - 🇺🇸_US_美国_TG:@kejixm123_17
+      - 🇺🇸_US_美国_TG:@kejixm123_18
+      - 🇺🇸_US_美国_TG:@kejixm123_19
+      - 🇬🇧_GB_英国_TG:@kejixm123_2
+      - TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_20
+      - 🇬🇧_GB_英国_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_21
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_2
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_3
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_4
+      - 🇫🇷_FR_法国_TG:@kejixm123
+      - 🇬🇧_GB_英国_TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_4
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_22
+      - 🇺🇸_US_美国_TG:@kejixm123_23
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_6
+      - 🇹🇼_TW_台湾_TG:@kejixm123_2
+      - 🇩🇪_DE_德国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_24
+      - 🇩🇪_DE_德国_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_1
+      - 🇩🇪_DE_德国_TG:@kejixm123_3
+      - 🇬🇧_GB_英国_TG:@kejixm123_5
+      - TG:@kejixm123_3
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_1
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_2
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_3
+      - TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_25
+      - 🇺🇸_US_美国_TG:@kejixm123_26
+      - 🇺🇸_US_美国_TG:@kejixm123_27
+      - 🇺🇸_US_美国_TG:@kejixm123_28
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_29
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸US美国订阅YouTube晓猛科技_1
-      - 🇫🇷FR法国订阅YouTube晓猛科技_2
-      - 🇺🇸US美国订阅YouTube晓猛科技_3
-      - 🇫🇷FR法国订阅YouTube晓猛科技_4
-      - 🇫🇷FR法国订阅YouTube晓猛科技_5
-      - 🇺🇸US美国订阅YouTube晓猛科技_6
-      - 🇺🇸US美国订阅YouTube晓猛科技_7
-      - 🇫🇷FR法国订阅YouTube晓猛科技_8
-      - 🇨🇳CN中国订阅YouTube晓猛科技_9
-      - 🇨🇳CN中国订阅YouTube晓猛科技_10
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_11
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_12
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_13
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_14
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_15
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_16
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_17
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_18
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_19
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_20
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_21
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_22
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_23
-      - 🇺🇸US美国订阅YouTube晓猛科技_24
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_25
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_26
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_27
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_28
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_29
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_30
-      - 🇨🇳CN中国订阅YouTube晓猛科技_31
-      - 🇨🇳CN中国订阅YouTube晓猛科技_32
-      - 🇫🇷FR法国订阅YouTube晓猛科技_33
-      - 🇫🇷FR法国订阅YouTube晓猛科技_34
-      - 🇫🇷FR法国订阅YouTube晓猛科技_35
-      - 🇫🇷FR法国订阅YouTube晓猛科技_36
-      - 🇫🇷FR法国订阅YouTube晓猛科技_37
-      - 🇫🇷FR法国订阅YouTube晓猛科技_38
-      - 🇫🇷FR法国订阅YouTube晓猛科技_39
-      - 🇫🇷FR法国订阅YouTube晓猛科技_40
-      - 🇭🇰HK香港订阅YouTube晓猛科技_41
-      - 🇮🇳IN印度订阅YouTube晓猛科技_42
-      - 🇯🇵JP日本订阅YouTube晓猛科技_43
-      - 🇯🇵JP日本订阅YouTube晓猛科技_44
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_45
-      - 🇨🇳CN中国订阅YouTube晓猛科技_46
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_47
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_48
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_49
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_50
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_51
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_52
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_53
-      - 🇺🇸US美国订阅YouTube晓猛科技_54
-      - 🇺🇸US美国订阅YouTube晓猛科技_55
-      - 🇺🇸US美国订阅YouTube晓猛科技_56
-      - 🇺🇸US美国订阅YouTube晓猛科技_57
-      - 🇺🇸US美国订阅YouTube晓猛科技_58
-      - 🇺🇸US美国订阅YouTube晓猛科技_59
-      - 🇺🇸US美国订阅YouTube晓猛科技_60
-      - 🇺🇸US美国订阅YouTube晓猛科技_61
-      - 🇺🇸US美国订阅YouTube晓猛科技_62
-      - 🇺🇸US美国订阅YouTube晓猛科技_63
-      - 🇺🇸US美国订阅YouTube晓猛科技_64
-      - 🇺🇸US美国订阅YouTube晓猛科技_65
-      - 🇬🇧GB英国订阅YouTube晓猛科技_66
-      - 🇺🇸US美国订阅YouTube晓猛科技_67
-      - 🇬🇧GB英国订阅YouTube晓猛科技_68
-      - 🇺🇸US美国订阅YouTube晓猛科技_69
-      - 🇺🇸US美国订阅YouTube晓猛科技_70
-      - 🇬🇧GB英国订阅YouTube晓猛科技_71
-      - 🇺🇸US美国订阅YouTube晓猛科技_72
-      - 🇺🇸US美国订阅YouTube晓猛科技_73
-      - 🇺🇸US美国订阅YouTube晓猛科技_74
-      - 🇮🇳IN印度订阅YouTube晓猛科技_75
-      - 🇺🇸US美国订阅YouTube晓猛科技_76
-      - 🇬🇧GB英国订阅YouTube晓猛科技_77
-      - 🇬🇧GB英国订阅YouTube晓猛科技_78
-      - 🇬🇧GB英国订阅YouTube晓猛科技_79
-      - 🇬🇧GB英国订阅YouTube晓猛科技_80
-      - 🇺🇸US美国订阅YouTube晓猛科技_81
-      - 🇺🇸US美国订阅YouTube晓猛科技_82
-      - 🇺🇸US美国订阅YouTube晓猛科技_83
-      - 🇺🇸US美国订阅YouTube晓猛科技_84
-      - 🇺🇸US美国订阅YouTube晓猛科技_85
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_86
-      - 订阅YouTube晓猛科技_87
-      - 🇺🇸US美国订阅YouTube晓猛科技_88
-      - 🇺🇸US美国订阅YouTube晓猛科技_89
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_90
-      - 🇺🇸US美国订阅YouTube晓猛科技_91
-      - 订阅YouTube晓猛科技_92
-      - 🇺🇸US美国订阅YouTube晓猛科技_93
-      - 🇺🇸US美国订阅YouTube晓猛科技_94
-      - 🇺🇸US美国订阅YouTube晓猛科技_95
-      - 🇺🇸US美国订阅YouTube晓猛科技_96
-      - 订阅YouTube晓猛科技_97
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_98
-      - 🇺🇸US美国订阅YouTube晓猛科技_99
-      - 🇺🇸US美国订阅YouTube晓猛科技_100
-      - 🇺🇸US美国订阅YouTube晓猛科技_101
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_102
-      - 🇺🇸US美国订阅YouTube晓猛科技_103
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_104
-      - 🇺🇸US美国订阅YouTube晓猛科技_105
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_106
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_107
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_108
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_109
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_110
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_111
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_112
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_113
-      - 🇺🇸US美国订阅YouTube晓猛科技_114
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_115
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_116
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_117
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_118
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_119
-      - US订阅YouTube晓猛科技_120
-      - US订阅YouTube晓猛科技_121
-      - US订阅YouTube晓猛科技_122
-      - US订阅YouTube晓猛科技_123
-      - US订阅YouTube晓猛科技_124
-      - US订阅YouTube晓猛科技_125
-      - US订阅YouTube晓猛科技_126
-      - US订阅YouTube晓猛科技_127
-      - US订阅YouTube晓猛科技_128
-      - GB订阅YouTube晓猛科技_129
-      - US订阅YouTube晓猛科技_130
-      - US订阅YouTube晓猛科技_131
-      - US订阅YouTube晓猛科技_132
-      - GB订阅YouTube晓猛科技_133
-      - US订阅YouTube晓猛科技_134
-      - US订阅YouTube晓猛科技_135
-      - US订阅YouTube晓猛科技_136
-      - GB订阅YouTube晓猛科技_137
-      - US订阅YouTube晓猛科技_138
-      - GB订阅YouTube晓猛科技_139
-      - US订阅YouTube晓猛科技_140
-      - US订阅YouTube晓猛科技_141
-      - GB订阅YouTube晓猛科技_142
-      - US订阅YouTube晓猛科技_143
-      - GB订阅YouTube晓猛科技_144
-      - US订阅YouTube晓猛科技_145
-      - US订阅YouTube晓猛科技_146
-      - GB订阅YouTube晓猛科技_147
-      - US订阅YouTube晓猛科技_148
-      - US订阅YouTube晓猛科技_149
-      - US订阅YouTube晓猛科技_150
-      - US订阅YouTube晓猛科技_151
-      - US订阅YouTube晓猛科技_152
-      - US订阅YouTube晓猛科技_153
-      - US订阅YouTube晓猛科技_154
-      - US订阅YouTube晓猛科技_155
-      - US订阅YouTube晓猛科技_156
-      - US订阅YouTube晓猛科技_157
-      - GB订阅YouTube晓猛科技_158
-      - GB订阅YouTube晓猛科技_159
-      - US订阅YouTube晓猛科技_160
-      - US订阅YouTube晓猛科技_161
-      - US订阅YouTube晓猛科技_162
-      - US订阅YouTube晓猛科技_163
-      - US订阅YouTube晓猛科技_164
-      - US订阅YouTube晓猛科技_165
-      - US订阅YouTube晓猛科技_166
-      - US订阅YouTube晓猛科技_167
-      - US订阅YouTube晓猛科技_168
-      - GB订阅YouTube晓猛科技_169
-      - US订阅YouTube晓猛科技_170
-      - US订阅YouTube晓猛科技_171
-      - US订阅YouTube晓猛科技_172
-      - GB订阅YouTube晓猛科技_173
-      - US订阅YouTube晓猛科技_174
-      - GB订阅YouTube晓猛科技_175
+      - TG:@kejixm123_1
+      - 🇯🇵_JP_日本_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_2
+      - 🇨🇳_CN_中国_TG:@kejixm123
+      - 🇹🇼_TW_台湾_TG:@kejixm123_1
+      - 🇰🇷_KR_韩国_TG:@kejixm123
+      - 🇺🇸_US_美国_TG:@kejixm123_3
+      - 🇯🇵_JP_日本_TG:@kejixm123_2
+      - 🇯🇵_JP_日本_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_4
+      - 🇯🇵_JP_日本_TG:@kejixm123_4
+      - 🇬🇧_GB_英国_TG:@kejixm123_1
+      - 🇭🇰_HK_香港_TG:@kejixm123
+      - 🇯🇵_JP_日本_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_7
+      - 🇲🇾_MY_马来西亚_TG:@kejixm123
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_8
+      - 🇺🇸_US_美国_TG:@kejixm123_9
+      - 🇺🇸_US_美国_TG:@kejixm123_10
+      - 🇺🇸_US_美国_TG:@kejixm123_11
+      - 🇺🇸_US_美国_TG:@kejixm123_12
+      - 🇺🇸_US_美国_TG:@kejixm123_13
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_1
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_14
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_15
+      - 🇺🇸_US_美国_TG:@kejixm123_16
+      - 🇺🇸_US_美国_TG:@kejixm123_17
+      - 🇺🇸_US_美国_TG:@kejixm123_18
+      - 🇺🇸_US_美国_TG:@kejixm123_19
+      - 🇬🇧_GB_英国_TG:@kejixm123_2
+      - TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_20
+      - 🇬🇧_GB_英国_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_21
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_2
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_3
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_4
+      - 🇫🇷_FR_法国_TG:@kejixm123
+      - 🇬🇧_GB_英国_TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_4
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_22
+      - 🇺🇸_US_美国_TG:@kejixm123_23
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_6
+      - 🇹🇼_TW_台湾_TG:@kejixm123_2
+      - 🇩🇪_DE_德国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_24
+      - 🇩🇪_DE_德国_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_1
+      - 🇩🇪_DE_德国_TG:@kejixm123_3
+      - 🇬🇧_GB_英国_TG:@kejixm123_5
+      - TG:@kejixm123_3
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_1
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_2
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_3
+      - TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_25
+      - 🇺🇸_US_美国_TG:@kejixm123_26
+      - 🇺🇸_US_美国_TG:@kejixm123_27
+      - 🇺🇸_US_美国_TG:@kejixm123_28
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_29
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸US美国订阅YouTube晓猛科技_1
-      - 🇫🇷FR法国订阅YouTube晓猛科技_2
-      - 🇺🇸US美国订阅YouTube晓猛科技_3
-      - 🇫🇷FR法国订阅YouTube晓猛科技_4
-      - 🇫🇷FR法国订阅YouTube晓猛科技_5
-      - 🇺🇸US美国订阅YouTube晓猛科技_6
-      - 🇺🇸US美国订阅YouTube晓猛科技_7
-      - 🇫🇷FR法国订阅YouTube晓猛科技_8
-      - 🇨🇳CN中国订阅YouTube晓猛科技_9
-      - 🇨🇳CN中国订阅YouTube晓猛科技_10
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_11
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_12
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_13
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_14
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_15
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_16
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_17
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_18
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_19
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_20
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_21
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_22
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_23
-      - 🇺🇸US美国订阅YouTube晓猛科技_24
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_25
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_26
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_27
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_28
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_29
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_30
-      - 🇨🇳CN中国订阅YouTube晓猛科技_31
-      - 🇨🇳CN中国订阅YouTube晓猛科技_32
-      - 🇫🇷FR法国订阅YouTube晓猛科技_33
-      - 🇫🇷FR法国订阅YouTube晓猛科技_34
-      - 🇫🇷FR法国订阅YouTube晓猛科技_35
-      - 🇫🇷FR法国订阅YouTube晓猛科技_36
-      - 🇫🇷FR法国订阅YouTube晓猛科技_37
-      - 🇫🇷FR法国订阅YouTube晓猛科技_38
-      - 🇫🇷FR法国订阅YouTube晓猛科技_39
-      - 🇫🇷FR法国订阅YouTube晓猛科技_40
-      - 🇭🇰HK香港订阅YouTube晓猛科技_41
-      - 🇮🇳IN印度订阅YouTube晓猛科技_42
-      - 🇯🇵JP日本订阅YouTube晓猛科技_43
-      - 🇯🇵JP日本订阅YouTube晓猛科技_44
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_45
-      - 🇨🇳CN中国订阅YouTube晓猛科技_46
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_47
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_48
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_49
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_50
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_51
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_52
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_53
-      - 🇺🇸US美国订阅YouTube晓猛科技_54
-      - 🇺🇸US美国订阅YouTube晓猛科技_55
-      - 🇺🇸US美国订阅YouTube晓猛科技_56
-      - 🇺🇸US美国订阅YouTube晓猛科技_57
-      - 🇺🇸US美国订阅YouTube晓猛科技_58
-      - 🇺🇸US美国订阅YouTube晓猛科技_59
-      - 🇺🇸US美国订阅YouTube晓猛科技_60
-      - 🇺🇸US美国订阅YouTube晓猛科技_61
-      - 🇺🇸US美国订阅YouTube晓猛科技_62
-      - 🇺🇸US美国订阅YouTube晓猛科技_63
-      - 🇺🇸US美国订阅YouTube晓猛科技_64
-      - 🇺🇸US美国订阅YouTube晓猛科技_65
-      - 🇬🇧GB英国订阅YouTube晓猛科技_66
-      - 🇺🇸US美国订阅YouTube晓猛科技_67
-      - 🇬🇧GB英国订阅YouTube晓猛科技_68
-      - 🇺🇸US美国订阅YouTube晓猛科技_69
-      - 🇺🇸US美国订阅YouTube晓猛科技_70
-      - 🇬🇧GB英国订阅YouTube晓猛科技_71
-      - 🇺🇸US美国订阅YouTube晓猛科技_72
-      - 🇺🇸US美国订阅YouTube晓猛科技_73
-      - 🇺🇸US美国订阅YouTube晓猛科技_74
-      - 🇮🇳IN印度订阅YouTube晓猛科技_75
-      - 🇺🇸US美国订阅YouTube晓猛科技_76
-      - 🇬🇧GB英国订阅YouTube晓猛科技_77
-      - 🇬🇧GB英国订阅YouTube晓猛科技_78
-      - 🇬🇧GB英国订阅YouTube晓猛科技_79
-      - 🇬🇧GB英国订阅YouTube晓猛科技_80
-      - 🇺🇸US美国订阅YouTube晓猛科技_81
-      - 🇺🇸US美国订阅YouTube晓猛科技_82
-      - 🇺🇸US美国订阅YouTube晓猛科技_83
-      - 🇺🇸US美国订阅YouTube晓猛科技_84
-      - 🇺🇸US美国订阅YouTube晓猛科技_85
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_86
-      - 订阅YouTube晓猛科技_87
-      - 🇺🇸US美国订阅YouTube晓猛科技_88
-      - 🇺🇸US美国订阅YouTube晓猛科技_89
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_90
-      - 🇺🇸US美国订阅YouTube晓猛科技_91
-      - 订阅YouTube晓猛科技_92
-      - 🇺🇸US美国订阅YouTube晓猛科技_93
-      - 🇺🇸US美国订阅YouTube晓猛科技_94
-      - 🇺🇸US美国订阅YouTube晓猛科技_95
-      - 🇺🇸US美国订阅YouTube晓猛科技_96
-      - 订阅YouTube晓猛科技_97
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_98
-      - 🇺🇸US美国订阅YouTube晓猛科技_99
-      - 🇺🇸US美国订阅YouTube晓猛科技_100
-      - 🇺🇸US美国订阅YouTube晓猛科技_101
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_102
-      - 🇺🇸US美国订阅YouTube晓猛科技_103
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_104
-      - 🇺🇸US美国订阅YouTube晓猛科技_105
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_106
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_107
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_108
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_109
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_110
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_111
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_112
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_113
-      - 🇺🇸US美国订阅YouTube晓猛科技_114
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_115
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_116
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_117
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_118
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_119
-      - US订阅YouTube晓猛科技_120
-      - US订阅YouTube晓猛科技_121
-      - US订阅YouTube晓猛科技_122
-      - US订阅YouTube晓猛科技_123
-      - US订阅YouTube晓猛科技_124
-      - US订阅YouTube晓猛科技_125
-      - US订阅YouTube晓猛科技_126
-      - US订阅YouTube晓猛科技_127
-      - US订阅YouTube晓猛科技_128
-      - GB订阅YouTube晓猛科技_129
-      - US订阅YouTube晓猛科技_130
-      - US订阅YouTube晓猛科技_131
-      - US订阅YouTube晓猛科技_132
-      - GB订阅YouTube晓猛科技_133
-      - US订阅YouTube晓猛科技_134
-      - US订阅YouTube晓猛科技_135
-      - US订阅YouTube晓猛科技_136
-      - GB订阅YouTube晓猛科技_137
-      - US订阅YouTube晓猛科技_138
-      - GB订阅YouTube晓猛科技_139
-      - US订阅YouTube晓猛科技_140
-      - US订阅YouTube晓猛科技_141
-      - GB订阅YouTube晓猛科技_142
-      - US订阅YouTube晓猛科技_143
-      - GB订阅YouTube晓猛科技_144
-      - US订阅YouTube晓猛科技_145
-      - US订阅YouTube晓猛科技_146
-      - GB订阅YouTube晓猛科技_147
-      - US订阅YouTube晓猛科技_148
-      - US订阅YouTube晓猛科技_149
-      - US订阅YouTube晓猛科技_150
-      - US订阅YouTube晓猛科技_151
-      - US订阅YouTube晓猛科技_152
-      - US订阅YouTube晓猛科技_153
-      - US订阅YouTube晓猛科技_154
-      - US订阅YouTube晓猛科技_155
-      - US订阅YouTube晓猛科技_156
-      - US订阅YouTube晓猛科技_157
-      - GB订阅YouTube晓猛科技_158
-      - GB订阅YouTube晓猛科技_159
-      - US订阅YouTube晓猛科技_160
-      - US订阅YouTube晓猛科技_161
-      - US订阅YouTube晓猛科技_162
-      - US订阅YouTube晓猛科技_163
-      - US订阅YouTube晓猛科技_164
-      - US订阅YouTube晓猛科技_165
-      - US订阅YouTube晓猛科技_166
-      - US订阅YouTube晓猛科技_167
-      - US订阅YouTube晓猛科技_168
-      - GB订阅YouTube晓猛科技_169
-      - US订阅YouTube晓猛科技_170
-      - US订阅YouTube晓猛科技_171
-      - US订阅YouTube晓猛科技_172
-      - GB订阅YouTube晓猛科技_173
-      - US订阅YouTube晓猛科技_174
-      - GB订阅YouTube晓猛科技_175
+      - TG:@kejixm123_1
+      - 🇯🇵_JP_日本_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_2
+      - 🇨🇳_CN_中国_TG:@kejixm123
+      - 🇹🇼_TW_台湾_TG:@kejixm123_1
+      - 🇰🇷_KR_韩国_TG:@kejixm123
+      - 🇺🇸_US_美国_TG:@kejixm123_3
+      - 🇯🇵_JP_日本_TG:@kejixm123_2
+      - 🇯🇵_JP_日本_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_4
+      - 🇯🇵_JP_日本_TG:@kejixm123_4
+      - 🇬🇧_GB_英国_TG:@kejixm123_1
+      - 🇭🇰_HK_香港_TG:@kejixm123
+      - 🇯🇵_JP_日本_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_7
+      - 🇲🇾_MY_马来西亚_TG:@kejixm123
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_8
+      - 🇺🇸_US_美国_TG:@kejixm123_9
+      - 🇺🇸_US_美国_TG:@kejixm123_10
+      - 🇺🇸_US_美国_TG:@kejixm123_11
+      - 🇺🇸_US_美国_TG:@kejixm123_12
+      - 🇺🇸_US_美国_TG:@kejixm123_13
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_1
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_14
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_15
+      - 🇺🇸_US_美国_TG:@kejixm123_16
+      - 🇺🇸_US_美国_TG:@kejixm123_17
+      - 🇺🇸_US_美国_TG:@kejixm123_18
+      - 🇺🇸_US_美国_TG:@kejixm123_19
+      - 🇬🇧_GB_英国_TG:@kejixm123_2
+      - TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_20
+      - 🇬🇧_GB_英国_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_21
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_2
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_3
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_4
+      - 🇫🇷_FR_法国_TG:@kejixm123
+      - 🇬🇧_GB_英国_TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_4
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_22
+      - 🇺🇸_US_美国_TG:@kejixm123_23
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_6
+      - 🇹🇼_TW_台湾_TG:@kejixm123_2
+      - 🇩🇪_DE_德国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_24
+      - 🇩🇪_DE_德国_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_1
+      - 🇩🇪_DE_德国_TG:@kejixm123_3
+      - 🇬🇧_GB_英国_TG:@kejixm123_5
+      - TG:@kejixm123_3
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_1
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_2
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_3
+      - TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_25
+      - 🇺🇸_US_美国_TG:@kejixm123_26
+      - 🇺🇸_US_美国_TG:@kejixm123_27
+      - 🇺🇸_US_美国_TG:@kejixm123_28
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_29
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1285,181 +550,76 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸US美国订阅YouTube晓猛科技_1
-      - 🇫🇷FR法国订阅YouTube晓猛科技_2
-      - 🇺🇸US美国订阅YouTube晓猛科技_3
-      - 🇫🇷FR法国订阅YouTube晓猛科技_4
-      - 🇫🇷FR法国订阅YouTube晓猛科技_5
-      - 🇺🇸US美国订阅YouTube晓猛科技_6
-      - 🇺🇸US美国订阅YouTube晓猛科技_7
-      - 🇫🇷FR法国订阅YouTube晓猛科技_8
-      - 🇨🇳CN中国订阅YouTube晓猛科技_9
-      - 🇨🇳CN中国订阅YouTube晓猛科技_10
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_11
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_12
-      - 🇦🇺AU澳大利亚订阅YouTube晓猛科技_13
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_14
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_15
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_16
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_17
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_18
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_19
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_20
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_21
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_22
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_23
-      - 🇺🇸US美国订阅YouTube晓猛科技_24
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_25
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_26
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_27
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_28
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_29
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_30
-      - 🇨🇳CN中国订阅YouTube晓猛科技_31
-      - 🇨🇳CN中国订阅YouTube晓猛科技_32
-      - 🇫🇷FR法国订阅YouTube晓猛科技_33
-      - 🇫🇷FR法国订阅YouTube晓猛科技_34
-      - 🇫🇷FR法国订阅YouTube晓猛科技_35
-      - 🇫🇷FR法国订阅YouTube晓猛科技_36
-      - 🇫🇷FR法国订阅YouTube晓猛科技_37
-      - 🇫🇷FR法国订阅YouTube晓猛科技_38
-      - 🇫🇷FR法国订阅YouTube晓猛科技_39
-      - 🇫🇷FR法国订阅YouTube晓猛科技_40
-      - 🇭🇰HK香港订阅YouTube晓猛科技_41
-      - 🇮🇳IN印度订阅YouTube晓猛科技_42
-      - 🇯🇵JP日本订阅YouTube晓猛科技_43
-      - 🇯🇵JP日本订阅YouTube晓猛科技_44
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_45
-      - 🇨🇳CN中国订阅YouTube晓猛科技_46
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_47
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_48
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_49
-      - 🇷🇺RU俄罗斯联邦订阅YouTube晓猛科技_50
-      - 🇨🇿CZ捷克订阅YouTube晓猛科技_51
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_52
-      - 🇸🇬SG新加坡订阅YouTube晓猛科技_53
-      - 🇺🇸US美国订阅YouTube晓猛科技_54
-      - 🇺🇸US美国订阅YouTube晓猛科技_55
-      - 🇺🇸US美国订阅YouTube晓猛科技_56
-      - 🇺🇸US美国订阅YouTube晓猛科技_57
-      - 🇺🇸US美国订阅YouTube晓猛科技_58
-      - 🇺🇸US美国订阅YouTube晓猛科技_59
-      - 🇺🇸US美国订阅YouTube晓猛科技_60
-      - 🇺🇸US美国订阅YouTube晓猛科技_61
-      - 🇺🇸US美国订阅YouTube晓猛科技_62
-      - 🇺🇸US美国订阅YouTube晓猛科技_63
-      - 🇺🇸US美国订阅YouTube晓猛科技_64
-      - 🇺🇸US美国订阅YouTube晓猛科技_65
-      - 🇬🇧GB英国订阅YouTube晓猛科技_66
-      - 🇺🇸US美国订阅YouTube晓猛科技_67
-      - 🇬🇧GB英国订阅YouTube晓猛科技_68
-      - 🇺🇸US美国订阅YouTube晓猛科技_69
-      - 🇺🇸US美国订阅YouTube晓猛科技_70
-      - 🇬🇧GB英国订阅YouTube晓猛科技_71
-      - 🇺🇸US美国订阅YouTube晓猛科技_72
-      - 🇺🇸US美国订阅YouTube晓猛科技_73
-      - 🇺🇸US美国订阅YouTube晓猛科技_74
-      - 🇮🇳IN印度订阅YouTube晓猛科技_75
-      - 🇺🇸US美国订阅YouTube晓猛科技_76
-      - 🇬🇧GB英国订阅YouTube晓猛科技_77
-      - 🇬🇧GB英国订阅YouTube晓猛科技_78
-      - 🇬🇧GB英国订阅YouTube晓猛科技_79
-      - 🇬🇧GB英国订阅YouTube晓猛科技_80
-      - 🇺🇸US美国订阅YouTube晓猛科技_81
-      - 🇺🇸US美国订阅YouTube晓猛科技_82
-      - 🇺🇸US美国订阅YouTube晓猛科技_83
-      - 🇺🇸US美国订阅YouTube晓猛科技_84
-      - 🇺🇸US美国订阅YouTube晓猛科技_85
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_86
-      - 订阅YouTube晓猛科技_87
-      - 🇺🇸US美国订阅YouTube晓猛科技_88
-      - 🇺🇸US美国订阅YouTube晓猛科技_89
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_90
-      - 🇺🇸US美国订阅YouTube晓猛科技_91
-      - 订阅YouTube晓猛科技_92
-      - 🇺🇸US美国订阅YouTube晓猛科技_93
-      - 🇺🇸US美国订阅YouTube晓猛科技_94
-      - 🇺🇸US美国订阅YouTube晓猛科技_95
-      - 🇺🇸US美国订阅YouTube晓猛科技_96
-      - 订阅YouTube晓猛科技_97
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_98
-      - 🇺🇸US美国订阅YouTube晓猛科技_99
-      - 🇺🇸US美国订阅YouTube晓猛科技_100
-      - 🇺🇸US美国订阅YouTube晓猛科技_101
-      - 🇰🇷KR韩国订阅YouTube晓猛科技_102
-      - 🇺🇸US美国订阅YouTube晓猛科技_103
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_104
-      - 🇺🇸US美国订阅YouTube晓猛科技_105
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_106
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_107
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_108
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_109
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_110
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_111
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_112
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_113
-      - 🇺🇸US美国订阅YouTube晓猛科技_114
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_115
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_116
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_117
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_118
-      - 🇨🇦CA加拿大订阅YouTube晓猛科技_119
-      - US订阅YouTube晓猛科技_120
-      - US订阅YouTube晓猛科技_121
-      - US订阅YouTube晓猛科技_122
-      - US订阅YouTube晓猛科技_123
-      - US订阅YouTube晓猛科技_124
-      - US订阅YouTube晓猛科技_125
-      - US订阅YouTube晓猛科技_126
-      - US订阅YouTube晓猛科技_127
-      - US订阅YouTube晓猛科技_128
-      - GB订阅YouTube晓猛科技_129
-      - US订阅YouTube晓猛科技_130
-      - US订阅YouTube晓猛科技_131
-      - US订阅YouTube晓猛科技_132
-      - GB订阅YouTube晓猛科技_133
-      - US订阅YouTube晓猛科技_134
-      - US订阅YouTube晓猛科技_135
-      - US订阅YouTube晓猛科技_136
-      - GB订阅YouTube晓猛科技_137
-      - US订阅YouTube晓猛科技_138
-      - GB订阅YouTube晓猛科技_139
-      - US订阅YouTube晓猛科技_140
-      - US订阅YouTube晓猛科技_141
-      - GB订阅YouTube晓猛科技_142
-      - US订阅YouTube晓猛科技_143
-      - GB订阅YouTube晓猛科技_144
-      - US订阅YouTube晓猛科技_145
-      - US订阅YouTube晓猛科技_146
-      - GB订阅YouTube晓猛科技_147
-      - US订阅YouTube晓猛科技_148
-      - US订阅YouTube晓猛科技_149
-      - US订阅YouTube晓猛科技_150
-      - US订阅YouTube晓猛科技_151
-      - US订阅YouTube晓猛科技_152
-      - US订阅YouTube晓猛科技_153
-      - US订阅YouTube晓猛科技_154
-      - US订阅YouTube晓猛科技_155
-      - US订阅YouTube晓猛科技_156
-      - US订阅YouTube晓猛科技_157
-      - GB订阅YouTube晓猛科技_158
-      - GB订阅YouTube晓猛科技_159
-      - US订阅YouTube晓猛科技_160
-      - US订阅YouTube晓猛科技_161
-      - US订阅YouTube晓猛科技_162
-      - US订阅YouTube晓猛科技_163
-      - US订阅YouTube晓猛科技_164
-      - US订阅YouTube晓猛科技_165
-      - US订阅YouTube晓猛科技_166
-      - US订阅YouTube晓猛科技_167
-      - US订阅YouTube晓猛科技_168
-      - GB订阅YouTube晓猛科技_169
-      - US订阅YouTube晓猛科技_170
-      - US订阅YouTube晓猛科技_171
-      - US订阅YouTube晓猛科技_172
-      - GB订阅YouTube晓猛科技_173
-      - US订阅YouTube晓猛科技_174
-      - GB订阅YouTube晓猛科技_175
+      - TG:@kejixm123_1
+      - 🇯🇵_JP_日本_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_2
+      - 🇨🇳_CN_中国_TG:@kejixm123
+      - 🇹🇼_TW_台湾_TG:@kejixm123_1
+      - 🇰🇷_KR_韩国_TG:@kejixm123
+      - 🇺🇸_US_美国_TG:@kejixm123_3
+      - 🇯🇵_JP_日本_TG:@kejixm123_2
+      - 🇯🇵_JP_日本_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_4
+      - 🇯🇵_JP_日本_TG:@kejixm123_4
+      - 🇬🇧_GB_英国_TG:@kejixm123_1
+      - 🇭🇰_HK_香港_TG:@kejixm123
+      - 🇯🇵_JP_日本_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_7
+      - 🇲🇾_MY_马来西亚_TG:@kejixm123
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_8
+      - 🇺🇸_US_美国_TG:@kejixm123_9
+      - 🇺🇸_US_美国_TG:@kejixm123_10
+      - 🇺🇸_US_美国_TG:@kejixm123_11
+      - 🇺🇸_US_美国_TG:@kejixm123_12
+      - 🇺🇸_US_美国_TG:@kejixm123_13
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_1
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_14
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_15
+      - 🇺🇸_US_美国_TG:@kejixm123_16
+      - 🇺🇸_US_美国_TG:@kejixm123_17
+      - 🇺🇸_US_美国_TG:@kejixm123_18
+      - 🇺🇸_US_美国_TG:@kejixm123_19
+      - 🇬🇧_GB_英国_TG:@kejixm123_2
+      - TG:@kejixm123_2
+      - 🇺🇸_US_美国_TG:@kejixm123_20
+      - 🇬🇧_GB_英国_TG:@kejixm123_3
+      - 🇺🇸_US_美国_TG:@kejixm123_21
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_2
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_3
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_4
+      - 🇫🇷_FR_法国_TG:@kejixm123
+      - 🇬🇧_GB_英国_TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_4
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_22
+      - 🇺🇸_US_美国_TG:@kejixm123_23
+      - 🇨🇦_CA_加拿大_TG:@kejixm123_6
+      - 🇹🇼_TW_台湾_TG:@kejixm123_2
+      - 🇩🇪_DE_德国_TG:@kejixm123_1
+      - 🇺🇸_US_美国_TG:@kejixm123_24
+      - 🇩🇪_DE_德国_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_1
+      - 🇩🇪_DE_德国_TG:@kejixm123_3
+      - 🇬🇧_GB_英国_TG:@kejixm123_5
+      - TG:@kejixm123_3
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_1
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_2
+      - 🇮🇳_IN_印度_TG:@kejixm123_2
+      - 🇦🇺_AU_澳大利亚_TG:@kejixm123_3
+      - TG:@kejixm123_4
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_5
+      - 🇺🇸_US_美国_TG:@kejixm123_25
+      - 🇺🇸_US_美国_TG:@kejixm123_26
+      - 🇺🇸_US_美国_TG:@kejixm123_27
+      - 🇺🇸_US_美国_TG:@kejixm123_28
+      - 🇸🇬_SG_新加坡_TG:@kejixm123_6
+      - 🇺🇸_US_美国_TG:@kejixm123_29
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
